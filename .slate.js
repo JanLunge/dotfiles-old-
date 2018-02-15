@@ -88,6 +88,12 @@ var mid = S.op("move", {
   "width": "screenSizeX/2",
   "height": "(screenSizeY/2)-65"
 });
+var maximize = S.op("move", {
+  "x": "screenOriginX",
+  "y": "screenOriginY",
+  "width": "screenSizeX",
+  "height": "screenSizeY-65"
+});
 var genBrowserHash = function (regex) {
   return {
     "operations": [function (windowObject) {
@@ -166,11 +172,13 @@ S.bnda({
   "pad6": rightHalf,
   "pad0": twoMonitor,
   "pad8": twoMonitor,
+  "pad7": maximize,
   "pad9": S.op("focus", {"direction": "behind"}),
   "pad.": S.op("focus", {"direction": "behind"}),
 
   //moving windows
   "c:alt;shift;ctrl": S.op("focus", {"direction": "behind"}),
+  "v:alt;shift;ctrl": maximize,
   "l:alt;shift;ctrl": twoMonitor,
   "i:alt;shift;ctrl": leftHalf,
   "e:alt;shift;ctrl": rightHalf,
