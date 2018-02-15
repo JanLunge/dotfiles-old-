@@ -1,0 +1,44 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="$Redo" count="1" />
+      <entry action="$Undo" count="86" />
+      <entry action="Back" count="10" />
+      <entry action="EditorBackSpace" count="123" />
+      <entry action="EditorChooseLookupItem" count="6" />
+      <entry action="EditorCopy" count="3" />
+      <entry action="EditorCut" count="1" />
+      <entry action="EditorDeleteLine" count="1" />
+      <entry action="EditorDeleteToWordStart" count="1" />
+      <entry action="EditorDown" count="22" />
+      <entry action="EditorDuplicate" count="2" />
+      <entry action="EditorEnter" count="16" />
+      <entry action="EditorEscape" count="3" />
+      <entry action="EditorLeft" count="44" />
+      <entry action="EditorLineEnd" count="3" />
+      <entry action="EditorLineEndWithSelection" count="1" />
+      <entry action="EditorLineStart" count="5" />
+      <entry action="EditorLineStartWithSelection" count="1" />
+      <entry action="EditorPaste" count="3" />
+      <entry action="EditorRight" count="68" />
+      <entry action="EditorSelectWord" count="2" />
+      <entry action="EditorTab" count="2" />
+      <entry action="EditorUnindentSelection" count="6" />
+      <entry action="EditorUp" count="8" />
+      <entry action="Forward" count="9" />
+      <entry action="Git.Add" count="3" />
+      <entry action="GotoAction" count="2" />
+      <entry action="GotoDeclaration" count="16" />
+      <entry action="GotoFile" count="1" />
+      <entry action="HideAllWindows" count="4" />
+      <entry action="ParameterInfo" count="1" />
+      <entry action="ReformatCode" count="22" />
+      <entry action="SaveAll" count="13" />
+      <entry action="SearchEverywhere" count="1" />
+      <entry action="SelectNextOccurrence" count="1" />
+      <entry action="Switcher" count="25" />
+      <entry action="ToggleLineBreakpoint" count="1" />
+      <entry action="code.align" count="23" />
+    </counts>
+  </component>
+</application>

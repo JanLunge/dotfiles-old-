@@ -1,0 +1,18 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4da6e34a-777e-4685-9d43-7a966dc19f5d" name="Ticket" url="http://ticket.app">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="d85c5018-b084-4f7d-a965-d7cc9dcd255e" name="Kwintern" url="http://kwintern.app">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="42094f41-0c7c-4680-92a9-c2087144bafd" name="depedro" url="http://localhost:8888/depedro">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="96903747-dd92-41a7-9e64-013e320e5ecb" name="tvz" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>

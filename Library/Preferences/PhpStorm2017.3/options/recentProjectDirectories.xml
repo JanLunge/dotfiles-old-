@@ -1,0 +1,56 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Code/meta-template" />
+        <option value="$USER_HOME$/Code/Mercedes MyVan Relaunch" />
+        <option value="/private/var/folders/mx/mhfrlnrx46zgpm7y0bp303h40000gp/T/php.js" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Code/Mercedes MyVan Relaunch" />
+        <option value="$USER_HOME$/Code/meta-template" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Code/meta-template" />
+    <option name="pid" value="" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Code/Mercedes MyVan Relaunch">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-173.4548.32" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1518677329147" />
+              <option name="buildTimestamp" value="1517310458385" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/meta-template">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-173.4548.32" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1518677329147" />
+              <option name="buildTimestamp" value="1517310458385" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/private/var/folders/mx/mhfrlnrx46zgpm7y0bp303h40000gp/T/php.js">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-173.4548.32" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1518605798552" />
+              <option name="buildTimestamp" value="1517310442959" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

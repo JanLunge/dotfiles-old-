@@ -1,0 +1,57 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="Git">
+      <project id="Mercedes MyVan Relaunch" values="config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,data.local.branches.count.1,data.remote.branches.count.2+,config.push.autoupdate.disabled,data.local.branches.count.1,config.ssh.enabled,data.remote.branches.count.1,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.force.push.enabled,data.remotes.in.project.1" collectionTime="1518605407429" />
+    </group>
+    <group name="php-interpreter-version">
+      <project id="Mercedes MyVan Relaunch" values="not installed" collectionTime="1518605407434" />
+    </group>
+    <group name="vcs">
+      <project id="Mercedes MyVan Relaunch" values="Git" collectionTime="1518605407367" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="Mercedes MyVan Relaunch" values="ECMAScript 5.1" collectionTime="1518605407430" />
+    </group>
+    <group name="php-debug-skipped-paths">
+      <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407438" />
+    </group>
+    <group name="php-servers">
+      <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407434" />
+    </group>
+    <group name="php-interpreters">
+      <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407437" />
+    </group>
+    <group name="php-include-path">
+      <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407431" />
+    </group>
+    <group name="file-type">
+      <project id="Mercedes MyVan Relaunch" values="JSX Harmony,Bash,JSHint,PHAR,Native,C++,PHP,SCSS,XML,PATCH,SourceMap,Perl,TypeScript,JavaScript,ReST,Twig,JSON,Ini,SQL,XHTML,ARCHIVE,Locale,PLAIN_TEXT,SQLite Database,HTML,TypeScript JSX,C#,SmartyConfig,CoffeeScript,JSCS,Images,ESLint,Sass,UNKNOWN,CSS,ASP,YAML,Less,htaccess" collectionTime="1518605407422" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="Mercedes MyVan Relaunch" values="Project,Project" collectionTime="1518605407430" />
+    </group>
+    <group name="module type">
+      <project id="Mercedes MyVan Relaunch" values="WEB_MODULE" collectionTime="1518605407367" />
+    </group>
+    <group name="deployment server">
+      <project id="Mercedes MyVan Relaunch" values="LOCAL" collectionTime="1518605407430" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="2" />
+      <entry feature="StripeButton[Version Control].shown" count="1" />
+      <entry feature="ide.settings.Appearance" count="1" />
+      <entry feature="ide.settings.Code Style" count="3" />
+      <entry feature="ide.settings.File_Types" count="2" />
+      <entry feature="ide.settings.JavaScript" count="4" />
+      <entry feature="ide.settings.Keymap" count="1" />
+      <entry feature="ide.settings.PHP" count="1" />
+      <entry feature="ide.settings.Plugins" count="3" />
+      <entry feature="ideaapp.started" count="10" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure.Import" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenDirectoryProject" count="1" />
+    </counts>
+  </component>
+</application>

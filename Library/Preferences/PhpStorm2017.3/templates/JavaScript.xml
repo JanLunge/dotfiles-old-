@@ -1,0 +1,16 @@
+<templateSet group="JavaScript">
+  <template name="log" value="console.log($Name$);$END$" description="console logging" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ajax" value="$.ajax({&#10;    method: &quot;POST&quot;,&#10;    url: &quot;$url$&quot;&#10;}).done( function( $msg$ ) {&#10;    $content$&#10;});" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="msg" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

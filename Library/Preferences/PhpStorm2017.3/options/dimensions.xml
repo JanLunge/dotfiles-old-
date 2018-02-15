@@ -1,0 +1,18 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="726" y="185" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="680" y="313" />
+    <location key="FileChooserDialogImpl.1920.-338.1080.1920" x="2041" y="-315" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="2253" y="230" />
+    <location key="replaceTextDialog.1920.-338.1080.1920" x="2222" y="312" />
+    <location key="SettingsEditor.1920.-338.1080.1920" x="283" y="206" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.1920.-338.1080.1920" x="2155" y="406" />
+    <location key="NewPhpFileDialog.1920.-338.1080.1920" x="2279" y="534" />
+    <location key="#Directories.1920.-338.1080.1920" x="2236" y="352" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1920.-338.1080.1920" x="2222" y="494" />
+    <location key="SettingsEditor.0.0.1920.1080" x="587" y="268" />
+    <location key="WELCOME_SCREEN.1920.-338.1080.1920" x="2459" y="405" />
+    <location key="#Browse_Repositories.1920.-338.1080.1920" x="548" y="212" />
+    <size key="SettingsEditor.1920.-338.1080.1920" width="1506" height="707" />
+  </component>
+</application>
