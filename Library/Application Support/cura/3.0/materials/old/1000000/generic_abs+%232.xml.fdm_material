@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='US-ASCII'?>
+<fdmmaterial xmlns="http://www.ultimaker.com/material">
+  <metadata>
+    <name>
+      <brand>Generic</brand>
+      <material>ABS</material>
+      <color>Generic</color>
+      <label>ABS</label>
+    </name>
+    <adhesion_info />
+    <compatible>True</compatible>
+    <description />
+    <version>1</version>
+    <GUID>60636bb4-518f-42e7-8237-fe77b194ebe0</GUID>
+    <color_code>#8cb219</color_code>
+  </metadata>
+  <properties>
+    <density>1.10</density>
+    <diameter>2.85</diameter>
+  </properties>
+  <settings>
+    <setting key="print temperature">230.0</setting>
+    <setting key="heated bed temperature">80</setting>
+    <setting key="standby temperature">200</setting>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker" product="ultimaker3" />
+      <setting key="print temperature">225</setting>
+      <setting key="print cooling">5</setting>
+      <hotend id="AA 0.4" />
+      <hotend id="BB 0.4" />
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker" product="Ultimaker 2+" />
+      <setting key="print temperature">225</setting>
+      <hotend id="0.25 mm" />
+      <hotend id="0.4 mm" />
+      <hotend id="0.8 mm" />
+      <hotend id="0.6 mm" />
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker" product="Ultimaker 2 Extended+" />
+      <setting key="print temperature">225</setting>
+      <hotend id="0.8 mm" />
+      <hotend id="0.6 mm" />
+      <hotend id="0.25 mm" />
+      <hotend id="0.4 mm" />
+    </machine>
+  </settings>
+</fdmmaterial>
