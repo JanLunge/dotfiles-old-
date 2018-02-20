@@ -1,5 +1,5 @@
 export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME=cypher
+ZSH_THEME=geometry/geometry
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jan/.composer/vendor/bin"
 # # export MANPATH="/usr/local/man:$MANPATH"
 #
@@ -69,3 +69,6 @@ export PATH=$PATH:$GOROOT/bin
 #export DYLD_FORCE_FLAT_NAMESPACE=1
 #export DYLD_INSERT_LIBRARIES=/usr/local/Cellar/libfaketime/0.9.5/lib/faketime/libfaketime.1.dylib
 #export FAKETIME="@2017-09-05 20:30:00"
+
+alias chmoddir="find . -type d -name \* -exec chmod 775 {} \;"
+alias chmodfiles="find . -type f -exec chmod 644 {} \;"

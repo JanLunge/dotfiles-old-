@@ -4,10 +4,10 @@
     <mouse-shortcut keystroke="button4" />
   </action>
   <action id="CommentByBlockComment">
-    <keyboard-shortcut first-keystroke="meta semicolon" />
+    <keyboard-shortcut first-keystroke="meta o_with_diaeresis" />
   </action>
   <action id="CommentByLineComment">
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <keyboard-shortcut first-keystroke="meta u_with_diaeresis" />
   </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />

@@ -8,7 +8,7 @@ S.cfga({
 });
 
 // Monitors
-var monBook = "1440x900";
+var monBook = "1680x1050";
 var monVert = "1080x1920";
 var monWide = "1920x1080";
 var metakey = "ctrl;shift;alt";

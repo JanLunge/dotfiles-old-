@@ -2,6 +2,9 @@
   <component name="MainMenuCollector">
     <counts>
       <entry path="File -&gt; Open Recent -&gt; Reopen Project" count="1" />
+      <entry path="File -&gt; Open..." count="1" />
+      <entry path="Run -&gt; Listen for debug connections" count="1" />
+      <entry path="Run -&gt; Web Server Debug Validation" count="5" />
     </counts>
   </component>
 </application>

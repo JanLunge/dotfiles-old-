@@ -2,13 +2,6 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
-        <option value="bash.scriptCommandReference" />
-        <option value="bash.includers" />
-        <option value="bash.var" />
-        <option value="bash.function.name" />
-        <option value="bash.included" />
-        <option value="bash.script.name" />
-        <option value="bash.vardef" />
         <option value="vue.local.directives.index" />
         <option value="vue.global.directives.index" />
         <option value="vue.mixin.binding.index" />
@@ -72,6 +65,13 @@
         <option value="JS.global.qualified.elements" />
         <option value="js.element.qualifiedName" />
         <option value="js.qualified.shortName" />
+        <option value="bash.var" />
+        <option value="bash.vardef" />
+        <option value="bash.scriptCommandReference" />
+        <option value="bash.includers" />
+        <option value="bash.included" />
+        <option value="bash.script.name" />
+        <option value="bash.function.name" />
         <option value="Css.custom.mixin" />
         <option value="Css.custom.property" />
         <option value="Css.attr" />

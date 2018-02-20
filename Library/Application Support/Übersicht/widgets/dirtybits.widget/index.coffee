@@ -8,99 +8,115 @@ render: (o) ->
   @count = 0
   """
     <div class='box'>
-      <div class='top'>WC <i class="fas fa-mars"></i></div>
-      <div class='status'>
-      </div>
     </div>
   """
 
 update: (output, domEl) ->
   box = $(domEl).find('.box')
-  data = JSON.parse(output)
+  try 
+    data = JSON.parse(output)
+    statusMEG = data['result']['data'][0]['free']
+    statusFEG = data['result']['data'][1]['free']
+    statusMOG = data['result']['data'][2]['free']
+    statusFOG = data['result']['data'][3]['free']
 
-  status = data['result']['data'][2]['free']
-  stateclass = "status--"+status
+    if(statusMEG)
+      statusMEG = 'free'
+    else
+      statusMEG = 'occupied'
 
+    if(statusFEG)
+      statusFEG = 'free'
+    else
+      statusFEG = 'occupied'
 
-  $(domEl).find('.box').removeClass('status--false')
-  $(domEl).find('.box').removeClass('status--true')
-  $(domEl).find('.box').addClass(stateclass)
-  if(status)
-    status = 'free'
-  else
-    status = 'occupied'
-  content = """
-    <div class='status #{stateclass}'> #{status}</div>
-    <div class='sub'>OG</div>
-  """
+    if(statusMOG)
+      statusMOG = 'free'
+    else
+      statusMOG = 'occupied'
 
-  $(box).find('.status').html content
+    if(statusFOG)
+      statusFOG = 'free'
+    else
+      statusFOG = 'occupied'
+
+    content = """
+    <div class='box'>
+      <div class='col'>
+          <div class='row'>
+              <div class='state state--fog'> <i class='state--#{statusFOG} fas fa-female'></i></div>
+              <div class='state state--mog'> <i class='state--#{statusMOG} fas fa-male'></i></div>
+          </div>
+          <div class='row'>
+              <div class='state state--meg'> <i class='state--#{statusMEG} fas fa-male'></i></div>
+              <div class='state state--feg'> <i class='state--#{statusFEG} fas fa-female'></i></div>
+          </div>
+      </div>
+    </div>
+    """
+
+    $(box).replaceWith content
+  catch error
+   console.log("error with json")
+
+  
 
 style: """
-  bottom: 0%
-  right: 140px
-  width: 220px
+  bottom: 5px
+  right: 150px
   color: white
   font-family: 'Helvetica Neue'
-  font-weight: 100
-  text-align: left
-  margin: -50px 0 0
+  font-weight: 200
+  letter-spacing: 1px
   text-align: center
   //background: rgba(255, 255, 255, 0.1)
-  //background: rgba(0, 0, 0, 0.3)
-  min-width: 130px
-  -webkit-font-smoothing: antialiased;
-  @keyframes attention {
-        from {
-          background: rgba(red,0.1)
-          -webkit-backdrop-filter: blur(5px) brightness(2%) contrast(5%) saturate(5%)
-        }
-        to {
-    background: rgba(red,0.8)
-          -webkit-backdrop-filter: blur(5px) brightness(50%) contrast(20%) saturate(5%)
-        }
-      }
-  .box.status--false
-
-    background: rgba(red,0.5)
-    animation-name: attention;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
+  min-width: 100px
+  border-radius: 10px
 
   .box
-    //border: 1px solid #FFF
-    border-radius:5px
-    font-size: 24px
-    padding: 4px 10px
-    //width: 160px
-    height: 57px
-    background: rgba(red,0)
-    transitions: all 0.2s ease
+    font-size: 20px
+    padding:2px
 
-    .status
-      font-size: 32px
-      position: relative
-      top: -2px
-      margin-bottom: -7px
+    .col
+      padding-left: 15px
 
-    .status--false
-      //color: red
+    .row
+      padding-top: 2px
+
+    .state
+      width: 30px
+      height: 20px
+      padding-top: 2px
+      padding-bottom: 5px
+
+    .state--occupied
+      color: rgb(213,68,73)	
+
+    .state--fog, .state--meg
+      float: left
+
+    .state--feg, .state--mog
+      float: left
+
+    .state--fog
+      //border-right: 1px solid
+      border-bottom: 1px solid
+
+    .state--mog
+      border-bottom: 1px solid
+
+    .state--meg
+      //border-right: 1px solid
 
     .top
       text-align: left
-      position: relative
-      top: -2px
 
     .sub
       text-align: right
-      top:-6px
+      margin-bottom: 2px
 
     .sub, .top
       font-size: 11px
       font-weight: 500
       letter-spacing: 1px
-      position:relative
-      //top:-6px
 """

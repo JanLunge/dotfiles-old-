@@ -1,57 +1,121 @@
 <application>
   <component name="StatisticsApplicationUsages">
-    <group name="Git">
-      <project id="Mercedes MyVan Relaunch" values="config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,data.local.branches.count.1,data.remote.branches.count.2+,config.push.autoupdate.disabled,data.local.branches.count.1,config.ssh.enabled,data.remote.branches.count.1,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.force.push.enabled,data.remotes.in.project.1" collectionTime="1518605407429" />
+    <group name="file-type">
+      <project id="Myvan" values="htaccess,Twig,DTD,ReST,PHP,SourceMap,SVG,PLAIN_TEXT,Native,.env file,Bash,JSON,Images,YAML,UNKNOWN,ARCHIVE,CSS,Ini,Locale,JavaScript,SCSS,XML,HTML,Markdown,C++,SmartyConfig" collectionTime="1519120263964" />
+      <project id="Mercedes MyVan Relaunch" values="Bash,PHAR,Less,JSCS,PLAIN_TEXT,JavaScript,htaccess,CSS,UNKNOWN,Perl,PHP,Twig,JSON,ARCHIVE,SQLite Database,C++,Ini,SourceMap,TypeScript,PATCH,JSX Harmony,CoffeeScript,XHTML,YAML,Images,SCSS,Locale,SmartyConfig,Sass,ReST,SQL,C#,HTML,TypeScript JSX,ESLint,XML,ASP,Native,JSHint" collectionTime="1518605407422" />
+    </group>
+    <group name="Run Dashboard">
+      <project id="Myvan" values="run.dashboard.disabled" collectionTime="1519120263966" />
+    </group>
+    <group name="deployment server">
+      <project id="Myvan" values="LOCAL" collectionTime="1519120264098" />
+      <project id="Mercedes MyVan Relaunch" values="LOCAL" collectionTime="1518605407430" />
+    </group>
+    <group name="php-extensions">
+      <project id="Myvan" values="Default" collectionTime="1519120264160" />
+    </group>
+    <group name="remote-sdk-types-count">
+      <project id="Myvan" values="PHP 0" collectionTime="1519120264191" />
+    </group>
+    <group name="Docker Integration">
+      <project id="Myvan" values="docker.runConfigs.cliOptions=0,docker.runConfigs.command=0,docker.accounts.total.1,docker.runConfigs.image=0,docker.accounts.pathMappings.1,docker.runConfigs.entrypoint=0,docker.runConfigs.publishAllPorts=0,docker.runConfigs.total.0,docker.runConfigs.total=0,docker.runConfigs.debug=0,docker.accounts.registry=0,docker.runConfigs.compose=0,docker.fileType.dockerfile.patterns,docker.accounts.registry.0,docker.accounts.machines=0,docker.accounts.total,docker.fileType.dockerfile.patterns.1,docker.accounts.pathMappings,docker.runConfigs.jsonFile=0,docker.runConfigs.dockerfile=0" collectionTime="1519120264206" />
+    </group>
+    <group name="composer executable">
+      <project id="Myvan" values="executable unconfigured (default settings)" collectionTime="1519120264169" />
+    </group>
+    <group name="vcs">
+      <project id="Myvan" values="Git" collectionTime="1519120263934" />
+      <project id="Mercedes MyVan Relaunch" values="Git" collectionTime="1518605407367" />
+    </group>
+    <group name="vcs-stats">
+      <project id="Myvan" values="unversioned.files.count.3+,has.default.vcs.root.mapping.disabled,ignored.files.count.1,vcs.roots.count.1,active.changelists.count.1" collectionTime="1519120263936" />
+    </group>
+    <group name="composer.json">
+      <project id="Myvan" values="found.out.of.base.dir" collectionTime="1519120264169" />
     </group>
     <group name="php-interpreter-version">
       <project id="Mercedes MyVan Relaunch" values="not installed" collectionTime="1518605407434" />
     </group>
-    <group name="vcs">
-      <project id="Mercedes MyVan Relaunch" values="Git" collectionTime="1518605407367" />
-    </group>
-    <group name="JavaScript versions">
-      <project id="Mercedes MyVan Relaunch" values="ECMAScript 5.1" collectionTime="1518605407430" />
+    <group name="Docker View">
+      <project id="Myvan" values="docker.view.total,docker.view.available" collectionTime="1519120264207" />
     </group>
     <group name="php-debug-skipped-paths">
+      <project id="Myvan" values="0" collectionTime="1519120264160" />
       <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407438" />
     </group>
-    <group name="php-servers">
-      <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407434" />
+    <group name="VCS Log 2">
+      <project id="Myvan" values="data.git.root.count.1,data.users.count.1+,data.branches.count.1+,data.commit.count.100+" collectionTime="1519120263969" />
     </group>
-    <group name="php-interpreters">
-      <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407437" />
+    <group name="Blade.textBlocks">
+      <project id="Myvan" values="new" collectionTime="1519120264180" />
     </group>
     <group name="php-include-path">
       <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407431" />
     </group>
-    <group name="file-type">
-      <project id="Mercedes MyVan Relaunch" values="JSX Harmony,Bash,JSHint,PHAR,Native,C++,PHP,SCSS,XML,PATCH,SourceMap,Perl,TypeScript,JavaScript,ReST,Twig,JSON,Ini,SQL,XHTML,ARCHIVE,Locale,PLAIN_TEXT,SQLite Database,HTML,TypeScript JSX,C#,SmartyConfig,CoffeeScript,JSCS,Images,ESLint,Sass,UNKNOWN,CSS,ASP,YAML,Less,htaccess" collectionTime="1518605407422" />
+    <group name="vcs-options">
+      <project id="Myvan" values="offer.move.failed.committed.do_nothing_silently,changelist.make.new.active.disabled,perform.commit.in.background.enabled,commit.before.check.todo.enabled,show.changes.preview.disabled,perform.rollback.in.background.disabled,commit.use.right.margin.enabled,perform.update.in.background.enabled,offer.move.partially.committed.disabled,commit.show.unversioned.enabled,commit.clear.initial.comment.disabled,check.conflicts.in.background.disabled,include.text.into.shelf.enabled,commit.before.check.non.empty.comment.disabled,offer.remove.empty.changelist.show_confirmation,commit.before.check.code.cleanup.disabled,commit.before.optimize.imports.disabled,commit.before.rearrange.disabled,perform.checkout.in.background.enabled,commit.before.check.code.smell.enabled,commit.before.reformat.project.disabled,perform.add_remove.in.background.enabled,changelist.preselect.existing.disabled,perform.edit.in.background.enabled" collectionTime="1519120263935" />
+    </group>
+    <group name="php-language-level">
+      <project id="Myvan" values="5.6" collectionTime="1519120264155" />
+    </group>
+    <group name="php-interpreters">
+      <project id="Myvan" values="0" collectionTime="1519120264155" />
+      <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407437" />
+    </group>
+    <group name="Git">
+      <project id="Myvan" values="data.remote.branches.count.1,data.remote.servers.gitlab.custom.1,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,version.2.14.3-UNIX,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,data.remotes.in.project.1,config.force.push.enabled,config.ssh.enabled,data.local.branches.count.1" collectionTime="1519120263974" />
+      <project id="Mercedes MyVan Relaunch" values="data.remote.branches.count.1,data.remotes.in.project.1,data.local.branches.count.1,data.remotes.in.project.1,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.ssh.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,data.remote.branches.count.2+,data.local.branches.count.1,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled" collectionTime="1518605407429" />
+    </group>
+    <group name="php-default-name-interpreters">
+      <project id="Myvan" values="Local Extended=0,Local Default=0,Local=0" collectionTime="1519120264154" />
+    </group>
+    <group name="composer sync settings">
+      <project id="Myvan" values="composer.json not set up" collectionTime="1519120264169" />
     </group>
     <group name="javaScript Scope Usages">
+      <project id="Myvan" values="Project,Directory" collectionTime="1519120264099" />
       <project id="Mercedes MyVan Relaunch" values="Project,Project" collectionTime="1518605407430" />
     </group>
+    <group name="php-custom-include-path">
+      <project id="Myvan" values="0" collectionTime="1519120264103" />
+    </group>
+    <group name="php-server-debug-ext">
+      <project id="Myvan" values="xdebug" collectionTime="1519120264159" />
+    </group>
     <group name="module type">
+      <project id="Myvan" values="WEB_MODULE" collectionTime="1519120263936" />
       <project id="Mercedes MyVan Relaunch" values="WEB_MODULE" collectionTime="1518605407367" />
     </group>
-    <group name="deployment server">
-      <project id="Mercedes MyVan Relaunch" values="LOCAL" collectionTime="1518605407430" />
+    <group name="php-interpreter-version-short">
+      <project id="Myvan" values="not installed" collectionTime="1519120264155" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="Myvan" values="ECMAScript 5.1" collectionTime="1519120264099" />
+      <project id="Mercedes MyVan Relaunch" values="ECMAScript 5.1" collectionTime="1518605407430" />
+    </group>
+    <group name="php-servers">
+      <project id="Myvan" values="1" collectionTime="1519120264111" />
+      <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407434" />
+    </group>
+    <group name="php-language-level-vs-runtime">
+      <project id="Myvan" values="Interpreter not installed" collectionTime="1519120264155" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
       <entry feature="CreateFile.CreateFileAction" count="2" />
-      <entry feature="StripeButton[Version Control].shown" count="1" />
+      <entry feature="StripeButton[Version Control].shown" count="2" />
       <entry feature="ide.settings.Appearance" count="1" />
       <entry feature="ide.settings.Code Style" count="3" />
       <entry feature="ide.settings.File_Types" count="2" />
       <entry feature="ide.settings.JavaScript" count="4" />
-      <entry feature="ide.settings.Keymap" count="1" />
+      <entry feature="ide.settings.Keymap" count="2" />
       <entry feature="ide.settings.PHP" count="1" />
-      <entry feature="ide.settings.Plugins" count="3" />
-      <entry feature="ideaapp.started" count="10" />
+      <entry feature="ide.settings.Plugins" count="5" />
+      <entry feature="ideaapp.started" count="17" />
       <entry feature="welcome.screen.WelcomeScreen.Configure" count="2" />
       <entry feature="welcome.screen.WelcomeScreen.Configure.Import" count="1" />
-      <entry feature="welcome.screen.WelcomeScreen.OpenDirectoryProject" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenDirectoryProject" count="3" />
     </counts>
   </component>
 </application>

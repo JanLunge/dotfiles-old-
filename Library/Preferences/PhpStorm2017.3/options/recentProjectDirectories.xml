@@ -2,18 +2,17 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/Code/meta-template" />
-        <option value="$USER_HOME$/Code/Mercedes MyVan Relaunch" />
-        <option value="/private/var/folders/mx/mhfrlnrx46zgpm7y0bp303h40000gp/T/php.js" />
+        <option value="$USER_HOME$/Code/Myvan" />
+        <option value="$USER_HOME$/Google Drive/qmk_firmware-master" />
+        <option value="/private/var/folders/4d/_fy_yfdn7hl6tqfx1m54ccjw0000gq/T/.slate.js" />
       </list>
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/Code/Mercedes MyVan Relaunch" />
-        <option value="$USER_HOME$/Code/meta-template" />
+        <option value="$USER_HOME$/Code/Myvan" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Code/meta-template" />
+    <option name="lastPath" value="$USER_HOME$/Code/Myvan" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -28,6 +27,17 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/Code/Myvan">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-173.4548.32" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1519121330131" />
+              <option name="buildTimestamp" value="1517310479418" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Code/meta-template">
           <value>
             <RecentProjectMetaInfo>
@@ -36,6 +46,28 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1518677329147" />
               <option name="buildTimestamp" value="1517310458385" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Google Drive/qmk_firmware-master">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-173.4548.32" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1519077171894" />
+              <option name="buildTimestamp" value="1517310459792" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/private/var/folders/4d/_fy_yfdn7hl6tqfx1m54ccjw0000gq/T/.slate.js">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-173.4548.32" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1518771892553" />
+              <option name="buildTimestamp" value="1517310464872" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
