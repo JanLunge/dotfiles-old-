@@ -50,7 +50,7 @@ bind down:ctrl;alt;shift focus behind
 
 # Window Hints
 bind esc:cmd hint uiaenrtd
-config windowHintsShowIcons true
+#config windowHintsShowIcons true
 config windowHintsIgnoreHiddenWindows false
 config windowHintsSpread true
 

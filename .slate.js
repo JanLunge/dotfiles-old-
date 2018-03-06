@@ -157,12 +157,6 @@ var twoMonitorLayout = S.lay("twoMonitor", {
 var twoMonitor = S.op("layout", {"name": twoMonitorLayout});
 // Batch bind everything. Less typing.
 S.bnda({
-  "1:ctrl;shift;alt": bookFull,
-  "2:ctrl;shift;alt": wideFull,
-  "3:ctrl;shift;alt": vertFull,
-
-  "4:ctrl;shift;alt": twoMonitor,
-
   //external hotkeypad
   "pad1": bookFull,
   "pad2": wideFull,
@@ -176,28 +170,30 @@ S.bnda({
   "pad9": S.op("focus", {"direction": "behind"}),
   "pad.": S.op("focus", {"direction": "behind"}),
 
-  //moving windows
-  "c:alt;shift;ctrl": S.op("focus", {"direction": "behind"}),
-  "v:alt;shift;ctrl": maximize,
-  "l:alt;shift;ctrl": twoMonitor,
+  //moving windows 
+  //left half keyboard
+  "v:alt;shift;ctrl": bookFull,
+  "l:alt;shift;ctrl": wideFull,
+  "c:alt;shift;ctrl": vertFull,
+
+  "u:alt;shift;ctrl": S.op("focus", {"direction": "behind"}),
   "i:alt;shift;ctrl": leftHalf,
+  "a:alt;shift;ctrl": maximize,
   "e:alt;shift;ctrl": rightHalf,
-  "a:alt;shift;ctrl": wideCenter,
-  ";:alt;shift;ctrl": bookFull,
-  "':alt;shift;ctrl": wideFull,
-  "p:alt;shift;ctrl": vertFull,
+
+  "p:alt;shift;ctrl": twoMonitor,
+
 
 
   //focus apps
-  //s - meta = iterm
-  "c:alt;shift;ctrl": S.op("focus", {"direction": "behind"}),
+  //right half
   "r:alt;shift;ctrl": S.op("focus", {"app": "PhpStorm"}),
   "n:alt;shift;ctrl": S.op("focus", {"app": "Google Chrome"}),
   "t:alt;shift;ctrl": S.op("focus", {"app": "Telegram"}),
   "d:alt;shift;ctrl": S.op("focus", {"app": "Sourcetree"}),
-  "m:alt;shift;ctrl": S.op("focus", {"app": "Safari"}),
+  "m:alt;shift;ctrl": S.op("focus", {"app": "Firefox"}),
   "f:alt;shift;ctrl": S.op("focus", {"app": "Slack"}),
-  "q:alt;shift;ctrl": S.op("focus", {"app": "Calendar"}),
+  "q:alt;shift;ctrl": S.op("focus", {"app": "Fantastical 2"}),
   "b:alt;shift;ctrl": S.op("focus", {"app": "Mail"}),
 
   // "h:alt;shift;ctrl": S.op("hide", {"app": "current"}),

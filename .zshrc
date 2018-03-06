@@ -30,45 +30,105 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="open ~/.zshrc"
 alias settings="open ~/.bash_profile"
 alias ohmyzsh="open ~/.oh-my-zsh"
-#
-alias meminfo='free -m -l -t'
-alias vm="ssh vagrant@127.0.0.1 -p 2222"
-alias web='cd ~/Documents/Web/Homestead/'
-alias mamphp='/Applications/MAMP/bin/php/php5.4.34/bin/php'
-#
-alias hide='chflags hidden'
-alias unhide='chflags nohidden'
-export PATH="$PATH:~/.composer/vendor/bin:/Applications/MAMP/bin"
-#
-#
-alias vmup='homestead up'
-alias vmdown='homestead halt'
-#
-alias sound_on='curl "https://autoremotejoaomgcd.appspot.com/sendmessage?key=APA91bEWryEme7IQsNMHCkwt9ChsAs0NR23z-Jkch30cFTMek1ZpFOSwpM-RCubopmdA0tchbBCaz8pwx56D__3gJugV_SUW-RFgJ7VsO8DZB158WkOVdXrniyVtQrJIinE8_WoQPOCm&message=s&ttl=5"'
-#
-#
-# # Super user
-alias _='sudo'
-alias please='sudo'
-alias fuck='sudo $(fc -ln -1)'
-alias giveafuck='curl -s http://rage.metroserve.me/?format=plain'
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jan/.composer/vendor/bin:~/.composer/vendor/bin:/Applications/MAMP/bin:/Applications/clojure”
-#
+
 alias sshvserver="ssh jan@heaper.de"
-alias sshwras="ssh pi@192.168.0.17"
-alias sshwprint="ssh pi@192.168.0.52"
-alias sshwdesk="ssh jan@192.168.0.28"
-alias pi="ssh pi@lunge.ddns.net -p 3390"
-alias adjlayer="sh $HOME/Scripts/AdjLayerHeight.sh"
-#
+alias wstore="ssh jan@wstore.ddns.net"
+
+
 export GOPATH=$HOME/Go
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 
-#export DYLD_FORCE_FLAT_NAMESPACE=1
-#export DYLD_INSERT_LIBRARIES=/usr/local/Cellar/libfaketime/0.9.5/lib/faketime/libfaketime.1.dylib
-#export FAKETIME="@2017-09-05 20:30:00"
-
+#maintainance
 alias chmoddir="find . -type d -name \* -exec chmod 775 {} \;"
 alias chmodfiles="find . -type f -exec chmod 644 {} \;"
+
+#sudo
+alias fuck='sudo $(fc -ln -1)'
+alias _='sudo'
+alias please='sudo'
+
+#art
+function rusto {
+    figlet -f rusto $1 | lolcat
+}
+function rustofat {
+    figlet -f rustofat $1 | lolcat
+}
+function slant {
+    figlet -f slant $1 | lolcat
+}
+function cyberlg {
+    figlet -f cyberlarge $1 | lolcat
+}
+function cybermd {
+    figlet -f cybermedium $1 | lolcat
+}
+function cybersm {
+    figlet -f cybersmall $1 | lolcat
+}
+function drpepper {
+    figlet -f drpepper $1 | lolcat
+}
+function small {
+    figlet -f small $1 | lolcat	
+}
+function lolt {
+    figlet -f $1 $2 | lolcat	
+}
+#isometric1 -4
+#poison
+#rectangles
+#rozzo
+#smisome1
+#stampatello
+#colossal
+#chunky
+
+#git
+alias ga="git add"
+alias gam="git ls-files --modified | xargs git add"
+alias gc="git commit -m"
+alias gs="git status"
+alias gd="git diff"
+alias gf="git fetch"
+alias gm="git merge"
+alias gr="git rebase"
+alias gp="git push"
+alias gpl="git pull"
+alias gu="git unstage"
+alias gg="git graph"
+alias gco="git checkout"
+alias glog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+
+
+#finder
+alias hide='chflags hidden'
+alias unhide='chflags nohidden'
+#create dir and enter it
+function mkd() {
+	mkdir -p "$@" && cd "$_";
+}
+# Change working directory to the top-most Finder window location
+function cdf() { # short for `cdfinder`
+	cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')";
+}
+# `v` with no arguments opens the current directory in Vim, otherwise opens the
+# given location
+function c() {
+	if [ $# -eq 0 ]; then
+		code .;
+	else
+		code "$@";
+	fi;
+}
+
+#bookmarks
+function cdvn() {
+	cd ~/Code/MyVan/
+	slant 'MyVan'
+}
+
+
+slant 'hello Jan'
