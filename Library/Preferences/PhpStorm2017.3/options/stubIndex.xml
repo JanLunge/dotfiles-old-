@@ -2,6 +2,8 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="erlang.behaviour.module" />
+        <option value="erlang.all.name" />
         <option value="vue.local.directives.index" />
         <option value="vue.global.directives.index" />
         <option value="vue.mixin.binding.index" />

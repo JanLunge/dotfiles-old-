@@ -8,19 +8,30 @@
     <property name="PhpStorm.initialConfigurationShown" value="true" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/Code/Mercedes MyVan Relaunch&#10;/Volumes/WSTICK&#10;/" />
     <property name="DeploymentNotificationsComponent.WarnDisplayed.Java7&amp;Windows7FTPIssue" value="false" />
-    <property name="fileTypeChangedCounter" value="3" />
+    <property name="fileTypeChangedCounter" value="4" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
-    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
-    <property name="KEYMAP" value="comment" />
-    <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
+    <property name="FileTemplates.SelectedTemplate" value="Drupal Hook Implementation Doc Comment" />
+    <property name="KEYMAP" value="vim&#10;split&#10;refactor&#10;filestr&#10;file" />
     <property name="evlsprt3.173" value="19" />
     <property name="ts.lib.d.ts.version" value="2.6.2" />
-    <property name="file.gist.reindex.count" value="7447" />
-    <property name="PLUGIN_FILTER" value="glance&#10;over&#10;es6&#10;es&#10;eslin" />
+    <property name="file.gist.reindex.count" value="7743" />
+    <property name="PLUGIN_FILTER" value="vim&#10;vi&#10;git&#10;git line&#10;color ide" />
     <property name="settings.code.style.selected.tab.JavaScript" value="Arrangement" />
     <property name="settings.code.style.selected.tab.PHP" value="Arrangement" />
-    <property name="SearchEveryWhereHistory" value="front-&#10;german&#10;entry&#10;.deve&#10;C" />
+    <property name="SearchEveryWhereHistory" value="$&#10;entr&#10;filetempla&#10;mce&#10;develo" />
     <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
     <property name="Copy.OpenInEditor" value="true" />
+    <property name="selected.color.option.type" value="TEXT" />
+    <property name="ColorChooser.RecentColors" value="173-187-187-255,,,40-44-52-255,,,47-51-61-255,,,224-87-74-255,,,224-101-93-255,,,86-182-194-255,,,167-167-167-255,,,55-55-55-255,,,51-55-57-255,,,204-124-221-255,,,207-98-220-255,,,92-184-88-255,,,106-213-82-255,,,35-35-34-255,,,67-79-94-255" />
+    <property name="emmet.last.wrap.abbreviations" value="span.a-button-content" />
+    <property name="emmet.recent.wrap.abbreviations" value="span.a-button-content" />
+    <property name="plugins.preselection.path" value="$USER_HOME$/Downloads" />
+    <property name="FileColorsForTabsEnabled" value="true" />
+    <property name="FileColorsForProjectViewEnabled" value="true" />
+    <property name="erlang.last.update.timestamp" value="1520848243480" />
+    <property name="FileTemplates.CurrentTab" value="Includes" />
+    <property name="vcs.log.changes.splitter.proportion" value="0.70648146" />
+    <property name="ideavim.statistics.timestamp" value="1520613395569" />
+    <property name="search.everywhere.max.popup.width" value="702" />
   </component>
 </application>

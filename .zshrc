@@ -1,31 +1,11 @@
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME=geometry/geometry
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jan/.composer/vendor/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # # export MANPATH="/usr/local/man:$MANPATH"
 #
 source $ZSH/oh-my-zsh.sh
 #
-# # You may need to manually set your language environment
-# # export LANG=en_US.UTF-8
-#
-# # Preferred editor for local and remote sessions
-# # if [[ -n $SSH_CONNECTION ]]; then
-# #   export EDITOR='vim'
-# # else
-# #   export EDITOR='mvim'
-# # fi
-#
-# # Compilation flags
-# # export ARCHFLAGS="-arch x86_64"
-#
-# # ssh
-# # export SSH_KEY_PATH="~/.ssh/dsa_id"
-#
-# # Set personal aliases, overriding those provided by oh-my-zsh libs,
-# # plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# # users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# # For a full list of active aliases, run `alias`.
-# #
+
 # # Example aliases
 alias zshconfig="open ~/.zshrc"
 alias settings="open ~/.bash_profile"
@@ -34,15 +14,28 @@ alias ohmyzsh="open ~/.oh-my-zsh"
 alias sshvserver="ssh jan@heaper.de"
 alias wstore="ssh jan@wstore.ddns.net"
 
+alias composer="php /usr/local/bin/composer.phar"
 
-export GOPATH=$HOME/Go
-export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$GOROOT/bin
+# Go development
+export GOPATH="${HOME}/.go"
+export GOROOT="/usr/local/Cellar/go@1.9/1.9.4/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+
+test -d "${GOPATH}" || mkdir "${GOPATH}"
+test -d "${GOPATH}/src/github.com" || mkdir -p "${GOPATH}/src/github.com"
+
+#docker
+function undockall {
+    docker stop $(docker ps -a -q)
+}
+alias updock="docker-compose up -d"
+alias lsdock="docker ps"
+alias swdock="undockall && updock"
 
 #maintainance
 alias chmoddir="find . -type d -name \* -exec chmod 775 {} \;"
 alias chmodfiles="find . -type f -exec chmod 644 {} \;"
+
 
 #sudo
 alias fuck='sudo $(fc -ln -1)'
@@ -106,6 +99,9 @@ alias glog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold 
 #finder
 alias hide='chflags hidden'
 alias unhide='chflags nohidden'
+alias showfinderhidden="defaults write com.apple.Finder AppleShowAllFiles true && killall Finder"
+alias hidefinderhidden="defaults write com.apple.Finder AppleShowAllFiles false && killall Finder"
+
 #create dir and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$_";
@@ -130,5 +126,9 @@ function cdvn() {
 	slant 'MyVan'
 }
 
+#setup
+function setupconfs(){
+    defaults write com.apple.Dock showhidden -bool true #was YES
+}
 
 slant 'hello Jan'

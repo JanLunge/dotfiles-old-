@@ -126,11 +126,6 @@
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.erlang" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
           </set>
         </option>
       </plugins>
@@ -685,19 +680,6 @@
         </option>
       </plugins>
     </entry>
-    <entry key="*.config">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.erlang" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
     <entry key="*.coo">
       <plugins>
         <option name="myPlugins">
@@ -730,6 +712,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.neueda4j.intellij.plugin.cypher" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.cr">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="net.kenro.ji.jin.intellij.crystal" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -1026,19 +1021,6 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.perl5" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
-    <entry key="*.erl">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.erlang" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -1683,19 +1665,6 @@
               <option name="myPluginId" value="com.intellij.javaee" />
               <option name="myPluginName" value="Java EE: EJB, JPA, Servlets" />
               <option name="myBundled" value="true" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
-    <entry key="*.hrl">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.erlang" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
             </plugin>
           </set>
         </option>
@@ -3332,19 +3301,6 @@
         </option>
       </plugins>
     </entry>
-    <entry key="*.rel">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.erlang" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
     <entry key="*.report">
       <plugins>
         <option name="myPlugins">
@@ -3462,19 +3418,6 @@
               <option name="myPluginId" value="com.intellij.spring.roo" />
               <option name="myPluginName" value="Spring Roo Console" />
               <option name="myBundled" value="true" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
-    <entry key="*.routes">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="org.jetbrains.erlang" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
             </plugin>
           </set>
         </option>

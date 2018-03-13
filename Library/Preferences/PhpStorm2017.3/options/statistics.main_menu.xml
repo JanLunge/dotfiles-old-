@@ -1,10 +1,22 @@
 <application>
   <component name="MainMenuCollector">
     <counts>
-      <entry path="File -&gt; Open Recent -&gt; Reopen Project" count="1" />
+      <entry path="File -&gt; New Project..." count="1" />
+      <entry path="File -&gt; New Scratch File" count="2" />
+      <entry path="File -&gt; Open Directory..." count="1" />
+      <entry path="File -&gt; Open Recent -&gt; Reopen Project" count="3" />
       <entry path="File -&gt; Open..." count="1" />
       <entry path="Run -&gt; Listen for debug connections" count="1" />
+      <entry path="Run -&gt; Toggle Line Breakpoint" count="1" />
       <entry path="Run -&gt; Web Server Debug Validation" count="5" />
+      <entry path="VCS -&gt; Git -&gt; Show Current Revision" count="1" />
+      <entry path="VCS -&gt; Git -&gt; Show History" count="1" />
+      <entry path="View -&gt; Navigation Bar" count="1" />
+      <entry path="View -&gt; Status Bar" count="2" />
+      <entry path="Window -&gt; Active Tool Window -&gt; Floating Mode" count="1" />
+      <entry path="Window -&gt; Active Tool Window -&gt; Hide All Tool Windows" count="1" />
+      <entry path="Window -&gt; Active Tool Window -&gt; Split Mode" count="1" />
+      <entry path="Window -&gt; Active Tool Window -&gt; Windowed Mode" count="1" />
     </counts>
   </component>
 </application>

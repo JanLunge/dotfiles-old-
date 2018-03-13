@@ -1,121 +1,190 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="file-type">
-      <project id="Myvan" values="htaccess,Twig,DTD,ReST,PHP,SourceMap,SVG,PLAIN_TEXT,Native,.env file,Bash,JSON,Images,YAML,UNKNOWN,ARCHIVE,CSS,Ini,Locale,JavaScript,SCSS,XML,HTML,Markdown,C++,SmartyConfig" collectionTime="1519120263964" />
-      <project id="Mercedes MyVan Relaunch" values="Bash,PHAR,Less,JSCS,PLAIN_TEXT,JavaScript,htaccess,CSS,UNKNOWN,Perl,PHP,Twig,JSON,ARCHIVE,SQLite Database,C++,Ini,SourceMap,TypeScript,PATCH,JSX Harmony,CoffeeScript,XHTML,YAML,Images,SCSS,Locale,SmartyConfig,Sass,ReST,SQL,C#,HTML,TypeScript JSX,ESLint,XML,ASP,Native,JSHint" collectionTime="1518605407422" />
-    </group>
-    <group name="Run Dashboard">
-      <project id="Myvan" values="run.dashboard.disabled" collectionTime="1519120263966" />
-    </group>
-    <group name="deployment server">
-      <project id="Myvan" values="LOCAL" collectionTime="1519120264098" />
-      <project id="Mercedes MyVan Relaunch" values="LOCAL" collectionTime="1518605407430" />
-    </group>
-    <group name="php-extensions">
-      <project id="Myvan" values="Default" collectionTime="1519120264160" />
-    </group>
-    <group name="remote-sdk-types-count">
-      <project id="Myvan" values="PHP 0" collectionTime="1519120264191" />
-    </group>
-    <group name="Docker Integration">
-      <project id="Myvan" values="docker.runConfigs.cliOptions=0,docker.runConfigs.command=0,docker.accounts.total.1,docker.runConfigs.image=0,docker.accounts.pathMappings.1,docker.runConfigs.entrypoint=0,docker.runConfigs.publishAllPorts=0,docker.runConfigs.total.0,docker.runConfigs.total=0,docker.runConfigs.debug=0,docker.accounts.registry=0,docker.runConfigs.compose=0,docker.fileType.dockerfile.patterns,docker.accounts.registry.0,docker.accounts.machines=0,docker.accounts.total,docker.fileType.dockerfile.patterns.1,docker.accounts.pathMappings,docker.runConfigs.jsonFile=0,docker.runConfigs.dockerfile=0" collectionTime="1519120264206" />
-    </group>
-    <group name="composer executable">
-      <project id="Myvan" values="executable unconfigured (default settings)" collectionTime="1519120264169" />
-    </group>
-    <group name="vcs">
-      <project id="Myvan" values="Git" collectionTime="1519120263934" />
-      <project id="Mercedes MyVan Relaunch" values="Git" collectionTime="1518605407367" />
-    </group>
-    <group name="vcs-stats">
-      <project id="Myvan" values="unversioned.files.count.3+,has.default.vcs.root.mapping.disabled,ignored.files.count.1,vcs.roots.count.1,active.changelists.count.1" collectionTime="1519120263936" />
-    </group>
-    <group name="composer.json">
-      <project id="Myvan" values="found.out.of.base.dir" collectionTime="1519120264169" />
-    </group>
-    <group name="php-interpreter-version">
-      <project id="Mercedes MyVan Relaunch" values="not installed" collectionTime="1518605407434" />
-    </group>
-    <group name="Docker View">
-      <project id="Myvan" values="docker.view.total,docker.view.available" collectionTime="1519120264207" />
-    </group>
-    <group name="php-debug-skipped-paths">
-      <project id="Myvan" values="0" collectionTime="1519120264160" />
-      <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407438" />
-    </group>
-    <group name="VCS Log 2">
-      <project id="Myvan" values="data.git.root.count.1,data.users.count.1+,data.branches.count.1+,data.commit.count.100+" collectionTime="1519120263969" />
+      <project id="Myvan" values="JavaScript,ARCHIVE,SCSS,DTD,SmartyConfig,PLAIN_TEXT,Twig,PHP,Ini,Markdown,UNKNOWN,JSON,Locale,SVG,Images,ReST,Erlang Terms,htaccess,CSS,Native,C++,SourceMap,.env file,Bash,HTML,YAML,XML" collectionTime="1520843249869" />
+      <project id="AlwaysCurious" values="PHP,Images,.env file,SVG,PLAIN_TEXT,YAML,SCSS,JavaScript,SourceMap,htaccess,UNKNOWN,CSS,Erlang Terms,Markdown,JSON" collectionTime="1520843243352" />
+      <project id="nunjucker" values="PHP,JavaScript,UNKNOWN,JSHint,CSS,ESLint,C++,HTML,SourceMap,Markdown,TypeScript,JSON,PATCH,Bash,IDEA_MODULE,XML,PLAIN_TEXT,YAML,JSCS,Images,Twig,CoffeeScript,SmartyConfig,Flow" collectionTime="1520351541821" />
+      <project id="Mercedes MyVan Relaunch" values="SQLite Database,CSS,HTML,Twig,PHAR,XML,Images,PHP,Less,ESLint,Sass,Perl,Ini,SmartyConfig,XHTML,C#,PLAIN_TEXT,PATCH,TypeScript JSX,UNKNOWN,SCSS,JSON,CoffeeScript,SQL,htaccess,ASP,SourceMap,Locale,YAML,Bash,JSX Harmony,TypeScript,C++,JavaScript,ReST,JSHint,JSCS,ARCHIVE,Native" collectionTime="1518605407422" />
     </group>
     <group name="Blade.textBlocks">
-      <project id="Myvan" values="new" collectionTime="1519120264180" />
+      <project id="Myvan" values="new" collectionTime="1520843249896" />
+      <project id="AlwaysCurious" values="new" collectionTime="1520843243571" />
+      <project id="nunjucker" values="new" collectionTime="1520351541957" />
+    </group>
+    <group name="php-extensions">
+      <project id="Myvan" values="Default" collectionTime="1520843249894" />
+      <project id="AlwaysCurious" values="Default" collectionTime="1520843243551" />
+      <project id="nunjucker" values="Default" collectionTime="1520351541943" />
+    </group>
+    <group name="remote-sdk-types-count">
+      <project id="Myvan" values="PHP 0" collectionTime="1520843249896" />
+      <project id="AlwaysCurious" values="PHP 0" collectionTime="1520843243592" />
+      <project id="nunjucker" values="PHP 0" collectionTime="1520351541969" />
+    </group>
+    <group name="php-interpreter-version-short">
+      <project id="Myvan" values="not installed" collectionTime="1520843249890" />
+      <project id="AlwaysCurious" values="not installed" collectionTime="1520843243549" />
+      <project id="nunjucker" values="not installed" collectionTime="1520351541941" />
     </group>
     <group name="php-include-path">
       <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407431" />
     </group>
+    <group name="composer executable">
+      <project id="Myvan" values="executable unconfigured (default settings)" collectionTime="1520843249895" />
+      <project id="AlwaysCurious" values="executable unconfigured (default settings)" collectionTime="1520843243561" />
+      <project id="nunjucker" values="executable unconfigured (default settings)" collectionTime="1520351541947" />
+    </group>
+    <group name="vcs">
+      <project id="Myvan" values="Git" collectionTime="1520843249847" />
+      <project id="nunjucker" values="Git" collectionTime="1520351541769" />
+      <project id="Mercedes MyVan Relaunch" values="Git" collectionTime="1518605407367" />
+    </group>
+    <group name="vcs-stats">
+      <project id="Myvan" values="has.default.vcs.root.mapping.disabled,ignored.files.count.1,vcs.roots.count.1,unversioned.files.count.0,active.changelists.count.1" collectionTime="1520843249849" />
+      <project id="AlwaysCurious" values="has.default.vcs.root.mapping.enabled,active.changelists.count.1,ignored.files.count.0,vcs.roots.count.0,unversioned.files.count.0" collectionTime="1520843243260" />
+      <project id="nunjucker" values="active.changelists.count.1,ignored.files.count.0,vcs.roots.count.1,has.default.vcs.root.mapping.disabled,unversioned.files.count.1" collectionTime="1520351541771" />
+    </group>
+    <group name="composer.json">
+      <project id="Myvan" values="found.out.of.base.dir" collectionTime="1520843249895" />
+      <project id="AlwaysCurious" values="configured" collectionTime="1520843243561" />
+      <project id="nunjucker" values="none" collectionTime="1520351541947" />
+    </group>
+    <group name="php-interpreter-version">
+      <project id="Mercedes MyVan Relaunch" values="not installed" collectionTime="1518605407434" />
+    </group>
+    <group name="php-debug-skipped-paths">
+      <project id="Myvan" values="0" collectionTime="1520843249894" />
+      <project id="AlwaysCurious" values="0" collectionTime="1520843243551" />
+      <project id="nunjucker" values="0" collectionTime="1520351541943" />
+      <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407438" />
+    </group>
+    <group name="VCS Log 2">
+      <project id="Myvan" values="data.git.root.count.1,data.branches.count.1+,data.commit.count.100+,data.users.count.1+" collectionTime="1520843249878" />
+    </group>
+    <group name="deployment server">
+      <project id="Myvan" values="LOCAL" collectionTime="1520843249885" />
+      <project id="AlwaysCurious" values="LOCAL" collectionTime="1520843243514" />
+      <project id="nunjucker" values="LOCAL" collectionTime="1520351541929" />
+      <project id="Mercedes MyVan Relaunch" values="LOCAL" collectionTime="1518605407430" />
+    </group>
     <group name="vcs-options">
-      <project id="Myvan" values="offer.move.failed.committed.do_nothing_silently,changelist.make.new.active.disabled,perform.commit.in.background.enabled,commit.before.check.todo.enabled,show.changes.preview.disabled,perform.rollback.in.background.disabled,commit.use.right.margin.enabled,perform.update.in.background.enabled,offer.move.partially.committed.disabled,commit.show.unversioned.enabled,commit.clear.initial.comment.disabled,check.conflicts.in.background.disabled,include.text.into.shelf.enabled,commit.before.check.non.empty.comment.disabled,offer.remove.empty.changelist.show_confirmation,commit.before.check.code.cleanup.disabled,commit.before.optimize.imports.disabled,commit.before.rearrange.disabled,perform.checkout.in.background.enabled,commit.before.check.code.smell.enabled,commit.before.reformat.project.disabled,perform.add_remove.in.background.enabled,changelist.preselect.existing.disabled,perform.edit.in.background.enabled" collectionTime="1519120263935" />
+      <project id="Myvan" values="commit.clear.initial.comment.disabled,perform.checkout.in.background.enabled,perform.add_remove.in.background.enabled,perform.rollback.in.background.disabled,commit.before.check.non.empty.comment.disabled,offer.remove.empty.changelist.show_confirmation,perform.edit.in.background.enabled,changelist.make.new.active.disabled,commit.before.reformat.project.disabled,commit.before.rearrange.disabled,commit.before.check.code.cleanup.disabled,commit.before.check.code.smell.enabled,perform.commit.in.background.enabled,include.text.into.shelf.enabled,commit.use.right.margin.enabled,commit.before.optimize.imports.disabled,check.conflicts.in.background.disabled,changelist.preselect.existing.disabled,offer.move.partially.committed.disabled,offer.move.failed.committed.do_nothing_silently,perform.update.in.background.enabled,show.changes.preview.disabled,commit.before.check.todo.enabled,commit.show.unversioned.enabled" collectionTime="1520843249847" />
+      <project id="AlwaysCurious" values="check.conflicts.in.background.disabled,perform.commit.in.background.enabled,commit.before.reformat.project.disabled,commit.before.check.code.cleanup.disabled,perform.add_remove.in.background.enabled,offer.remove.empty.changelist.show_confirmation,commit.before.rearrange.disabled,commit.show.unversioned.enabled,perform.edit.in.background.enabled,perform.rollback.in.background.disabled,offer.move.failed.committed.do_nothing_silently,commit.before.check.non.empty.comment.disabled,commit.before.optimize.imports.disabled,commit.before.check.code.smell.enabled,changelist.make.new.active.disabled,perform.checkout.in.background.enabled,commit.before.check.todo.enabled,offer.move.partially.committed.disabled,show.changes.preview.disabled,include.text.into.shelf.enabled,changelist.preselect.existing.disabled,perform.update.in.background.enabled,commit.clear.initial.comment.disabled,commit.use.right.margin.enabled" collectionTime="1520843243258" />
+      <project id="nunjucker" values="commit.before.check.code.cleanup.disabled,check.conflicts.in.background.disabled,commit.clear.initial.comment.disabled,show.changes.preview.disabled,commit.before.check.code.smell.enabled,commit.before.optimize.imports.disabled,changelist.make.new.active.disabled,commit.before.reformat.project.disabled,perform.update.in.background.enabled,commit.before.check.todo.enabled,perform.edit.in.background.enabled,commit.before.rearrange.disabled,commit.before.check.non.empty.comment.disabled,commit.show.unversioned.enabled,include.text.into.shelf.enabled,perform.checkout.in.background.enabled,offer.move.partially.committed.disabled,changelist.preselect.existing.disabled,offer.move.failed.committed.do_nothing_silently,commit.use.right.margin.enabled,perform.add_remove.in.background.enabled,perform.rollback.in.background.disabled,offer.remove.empty.changelist.show_confirmation,perform.commit.in.background.enabled" collectionTime="1520351541770" />
     </group>
     <group name="php-language-level">
-      <project id="Myvan" values="5.6" collectionTime="1519120264155" />
+      <project id="Myvan" values="5.6" collectionTime="1520843249890" />
+      <project id="AlwaysCurious" values="5.6" collectionTime="1520843243549" />
+      <project id="nunjucker" values="5.6" collectionTime="1520351541941" />
+    </group>
+    <group name="Docker Integration">
+      <project id="Myvan" values="docker.accounts.total,docker.accounts.pathMappings,docker.accounts.registry=0,docker.runConfigs.compose=0,docker.runConfigs.debug=0,docker.runConfigs.total=0,docker.runConfigs.total.0,docker.accounts.registry.0,docker.runConfigs.jsonFile=0,docker.accounts.machines=0,docker.runConfigs.image=0,docker.runConfigs.command=0,docker.runConfigs.cliOptions=0,docker.fileType.dockerfile.patterns.1,docker.runConfigs.entrypoint=0,docker.accounts.total.1,docker.runConfigs.publishAllPorts=0,docker.runConfigs.dockerfile=0,docker.accounts.pathMappings.1,docker.fileType.dockerfile.patterns" collectionTime="1520843249896" />
+      <project id="AlwaysCurious" values="docker.runConfigs.publishAllPorts=0,docker.runConfigs.entrypoint=0,docker.runConfigs.compose=0,docker.runConfigs.total.0,docker.accounts.total.1,docker.runConfigs.debug=0,docker.runConfigs.dockerfile=0,docker.runConfigs.jsonFile=0,docker.runConfigs.command=0,docker.runConfigs.cliOptions=0,docker.accounts.pathMappings.1,docker.accounts.machines=0,docker.fileType.dockerfile.patterns.1,docker.accounts.total,docker.runConfigs.image=0,docker.accounts.registry=0,docker.fileType.dockerfile.patterns,docker.accounts.pathMappings,docker.runConfigs.total=0,docker.accounts.registry.0" collectionTime="1520843243610" />
+      <project id="nunjucker" values="docker.accounts.total,docker.accounts.registry.0,docker.accounts.machines 0,docker.runConfigs.debug 0,docker.runConfigs.publishAllPorts 0,docker.runConfigs.cliOptions 0,docker.accounts.total.1,docker.runConfigs.jsonFile 0,docker.accounts.pathMappings.1,docker.runConfigs.image 0,docker.runConfigs.dockerfile 0,docker.fileType.dockerfile.patterns,docker.accounts.registry 0,docker.runConfigs.compose 0,docker.accounts.pathMappings,docker.runConfigs.total 0,docker.runConfigs.entrypoint 0,docker.runConfigs.command 0,docker.runConfigs.total.0,docker.fileType.dockerfile.patterns.1" collectionTime="1520351541981" />
     </group>
     <group name="php-interpreters">
-      <project id="Myvan" values="0" collectionTime="1519120264155" />
+      <project id="Myvan" values="0" collectionTime="1520843249890" />
+      <project id="AlwaysCurious" values="0" collectionTime="1520843243549" />
+      <project id="nunjucker" values="0" collectionTime="1520351541941" />
       <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407437" />
     </group>
     <group name="Git">
-      <project id="Myvan" values="data.remote.branches.count.1,data.remote.servers.gitlab.custom.1,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,version.2.14.3-UNIX,config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.push.autoupdate.disabled,data.remotes.in.project.1,config.force.push.enabled,config.ssh.enabled,data.local.branches.count.1" collectionTime="1519120263974" />
-      <project id="Mercedes MyVan Relaunch" values="data.remote.branches.count.1,data.remotes.in.project.1,data.local.branches.count.1,data.remotes.in.project.1,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.ssh.enabled,config.save.policy.STASH,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,data.remote.branches.count.2+,data.local.branches.count.1,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled" collectionTime="1518605407429" />
+      <project id="Myvan" values="config.push.autoupdate.disabled,config.ssh.enabled,config.force.push.enabled,data.remote.servers.gitlab.custom.1,config.warn.about.crlf.enabled,config.update.type.BRANCH_DEFAULT,version.2.14.3-UNIX,config.push.update.all.roots.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,data.remotes.in.project.1,data.local.branches.count.1,data.remote.branches.count.1" collectionTime="1520843249885" />
+      <project id="AlwaysCurious" values="config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.force.push.enabled,config.ssh.enabled,config.push.update.all.roots.enabled,version.0.0.0-NULL,config.warn.about.detached.enabled,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.warn.about.crlf.enabled" collectionTime="1520843243361" />
+      <project id="nunjucker" values="data.local.branches.count.1,config.save.policy.STASH,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,data.remotes.in.project.1,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,data.remote.branches.count.2+,config.force.push.enabled,data.remote.servers.github.com.1,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,version.2.14.3-UNIX,config.ssh.enabled" collectionTime="1520351541827" />
+      <project id="Mercedes MyVan Relaunch" values="data.remote.branches.count.2+,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,data.remotes.in.project.1,config.ssh.enabled,data.local.branches.count.1,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,data.local.branches.count.1,data.remote.branches.count.1,data.remotes.in.project.1" collectionTime="1518605407429" />
     </group>
     <group name="php-default-name-interpreters">
-      <project id="Myvan" values="Local Extended=0,Local Default=0,Local=0" collectionTime="1519120264154" />
-    </group>
-    <group name="composer sync settings">
-      <project id="Myvan" values="composer.json not set up" collectionTime="1519120264169" />
-    </group>
-    <group name="javaScript Scope Usages">
-      <project id="Myvan" values="Project,Directory" collectionTime="1519120264099" />
-      <project id="Mercedes MyVan Relaunch" values="Project,Project" collectionTime="1518605407430" />
+      <project id="Myvan" values="Local Default=0,Local=0,Local Extended=0" collectionTime="1520843249890" />
+      <project id="AlwaysCurious" values="Local=0,Local Extended=0,Local Default=0" collectionTime="1520843243549" />
+      <project id="nunjucker" values="Local Extended 0,Local 0,Local Default 0" collectionTime="1520351541940" />
     </group>
     <group name="php-custom-include-path">
-      <project id="Myvan" values="0" collectionTime="1519120264103" />
+      <project id="Myvan" values="0" collectionTime="1520843249885" />
+      <project id="AlwaysCurious" values="0" collectionTime="1520843243532" />
+      <project id="nunjucker" values="0" collectionTime="1520351541936" />
+    </group>
+    <group name="composer sync settings">
+      <project id="Myvan" values="composer.json not set up" collectionTime="1520843249895" />
+      <project id="AlwaysCurious" values="composer.json provided. Libraries set up. Sync state SYNCHRONIZE" collectionTime="1520843243561" />
+      <project id="nunjucker" values="composer.json not set up" collectionTime="1520351541947" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="Myvan" values="Directory,Project" collectionTime="1520843249885" />
+      <project id="AlwaysCurious" values="Project" collectionTime="1520843243514" />
+      <project id="nunjucker" values="Project,Directory" collectionTime="1520351541930" />
+      <project id="Mercedes MyVan Relaunch" values="Project,Project" collectionTime="1518605407430" />
+    </group>
+    <group name="Docker View">
+      <project id="Myvan" values="docker.view.total,docker.view.available" collectionTime="1520843249896" />
+      <project id="AlwaysCurious" values="docker.view.total,docker.view.available" collectionTime="1520843243611" />
+      <project id="nunjucker" values="docker.view.total,docker.view.available" collectionTime="1520351541981" />
     </group>
     <group name="php-server-debug-ext">
-      <project id="Myvan" values="xdebug" collectionTime="1519120264159" />
+      <project id="Myvan" values="xdebug" collectionTime="1520843249894" />
     </group>
     <group name="module type">
-      <project id="Myvan" values="WEB_MODULE" collectionTime="1519120263936" />
+      <project id="Myvan" values="WEB_MODULE" collectionTime="1520843249849" />
+      <project id="AlwaysCurious" values="WEB_MODULE" collectionTime="1520843243261" />
+      <project id="nunjucker" values="WEB_MODULE" collectionTime="1520351541772" />
       <project id="Mercedes MyVan Relaunch" values="WEB_MODULE" collectionTime="1518605407367" />
     </group>
-    <group name="php-interpreter-version-short">
-      <project id="Myvan" values="not installed" collectionTime="1519120264155" />
-    </group>
-    <group name="JavaScript versions">
-      <project id="Myvan" values="ECMAScript 5.1" collectionTime="1519120264099" />
-      <project id="Mercedes MyVan Relaunch" values="ECMAScript 5.1" collectionTime="1518605407430" />
-    </group>
     <group name="php-servers">
-      <project id="Myvan" values="1" collectionTime="1519120264111" />
+      <project id="Myvan" values="1" collectionTime="1520843249890" />
+      <project id="AlwaysCurious" values="0" collectionTime="1520843243536" />
+      <project id="nunjucker" values="0" collectionTime="1520351541940" />
       <project id="Mercedes MyVan Relaunch" values="0" collectionTime="1518605407434" />
     </group>
+    <group name="JavaScript versions">
+      <project id="Myvan" values="ECMAScript 5.1" collectionTime="1520843249885" />
+      <project id="AlwaysCurious" values="ECMAScript 5.1" collectionTime="1520843243514" />
+      <project id="nunjucker" values="ECMAScript 5.1" collectionTime="1520351541930" />
+      <project id="Mercedes MyVan Relaunch" values="ECMAScript 5.1" collectionTime="1518605407430" />
+    </group>
     <group name="php-language-level-vs-runtime">
-      <project id="Myvan" values="Interpreter not installed" collectionTime="1519120264155" />
+      <project id="Myvan" values="Interpreter not installed" collectionTime="1520843249890" />
+      <project id="AlwaysCurious" values="Interpreter not installed" collectionTime="1520843243549" />
+      <project id="nunjucker" values="Interpreter not installed" collectionTime="1520351541941" />
+    </group>
+    <group name="Run Dashboard">
+      <project id="Myvan" values="run.dashboard.disabled" collectionTime="1520843249870" />
+      <project id="AlwaysCurious" values="run.dashboard.disabled" collectionTime="1520843243358" />
+      <project id="nunjucker" values="run.dashboard.disabled" collectionTime="1520351541822" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="CreateFile.CreateFileAction" count="2" />
-      <entry feature="StripeButton[Version Control].shown" count="2" />
-      <entry feature="ide.settings.Appearance" count="1" />
-      <entry feature="ide.settings.Code Style" count="3" />
+      <entry feature="CreateFile.CreateFileAction" count="13" />
+      <entry feature="StripeButton[Version Control].shown" count="3" />
+      <entry feature="ide.settings.Appearance" count="6" />
+      <entry feature="ide.settings.Bash" count="2" />
+      <entry feature="ide.settings.Code Completion" count="1" />
+      <entry feature="ide.settings.Code Folding" count="2" />
+      <entry feature="ide.settings.Code Style" count="4" />
+      <entry feature="ide.settings.Color Scheme" count="18" />
+      <entry feature="ide.settings.Color Scheme Font" count="8" />
+      <entry feature="ide.settings.Console Font" count="1" />
+      <entry feature="ide.settings.File Colors" count="2" />
+      <entry feature="ide.settings.File and Code Templates" count="1" />
       <entry feature="ide.settings.File_Types" count="2" />
+      <entry feature="ide.settings.Font" count="7" />
+      <entry feature="ide.settings.General" count="7" />
+      <entry feature="ide.settings.Inspections" count="3" />
       <entry feature="ide.settings.JavaScript" count="4" />
-      <entry feature="ide.settings.Keymap" count="2" />
-      <entry feature="ide.settings.PHP" count="1" />
-      <entry feature="ide.settings.Plugins" count="5" />
-      <entry feature="ideaapp.started" count="17" />
+      <entry feature="ide.settings.Keymap" count="9" />
+      <entry feature="ide.settings.Language Defaults" count="8" />
+      <entry feature="ide.settings.PHP" count="3" />
+      <entry feature="ide.settings.Plugins" count="10" />
+      <entry feature="ideaapp.started" count="32" />
+      <entry feature="project.view.pane.ProjectPane" count="2" />
+      <entry feature="project.view.pane.Scope.Problems" count="2" />
+      <entry feature="project.view.pane.Scope.Project Files" count="3" />
+      <entry feature="project.view.pane.Scope.Tests" count="1" />
+      <entry feature="project.view.pane.Scratches" count="1" />
+      <entry feature="terminal.mac" count="2" />
       <entry feature="welcome.screen.WelcomeScreen.Configure" count="2" />
       <entry feature="welcome.screen.WelcomeScreen.Configure.Import" count="1" />
-      <entry feature="welcome.screen.WelcomeScreen.OpenDirectoryProject" count="3" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenDirectoryProject" count="4" />
     </counts>
   </component>
 </application>

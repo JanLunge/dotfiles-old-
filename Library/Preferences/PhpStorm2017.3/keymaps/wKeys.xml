@@ -3,6 +3,7 @@
     <keyboard-shortcut first-keystroke="meta alt left" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="BaseOnThisFunction" />
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta o_with_diaeresis" />
   </action>
@@ -11,8 +12,22 @@
   </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
+  <action id="Console.TableResult.Reload" />
+  <action id="DatabaseView.OpenDdlInConsole" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="meta alt button1" />
+  </action>
   <action id="GotoRelated" />
+  <action id="IntroduceVariable" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="meta alt down" />
   </action>
@@ -22,12 +37,22 @@
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
   <action id="NextOccurence" />
+  <action id="ParameterInfo" />
   <action id="PreviousOccurence" />
+  <action id="Refresh" />
+  <action id="Replace" />
+  <action id="Rerun" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl g" />
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="ShowProjectStructureSettings" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
@@ -43,4 +68,15 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="ToggleBreakpointEnabled">
+    <keyboard-shortcut first-keystroke="meta alt b" />
+  </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="shift meta alt b" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.QuickListPopupAction" />
+  <action id="hg4idea.QRefresh" />
 </keymap>

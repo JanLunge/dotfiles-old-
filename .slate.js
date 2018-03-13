@@ -36,6 +36,28 @@ var bookFull = S.op("move", {
   "width": "screenSizeX",
   "height": "screenSizeY-65"
 });
+var monFull = S.op("move", {
+  "screen": 0,
+  "x": "screenOriginX",
+  "y": "screenOriginY",
+  "width": "screenSizeX",
+  "height": "screenSizeY-65"
+});
+var monLFull = monFull.dup(
+  {
+    "screen": 0
+  }
+);
+var monMFull = monFull.dup(
+  {
+    "screen": 1
+  }
+);
+var monRFull = monFull.dup(
+  {
+    "screen": 2
+  }
+);
 var bookRightHalf = bookFull.dup(
   {
     "x": "screenOriginX+(screenSizeX/2)",
@@ -154,7 +176,7 @@ var twoMonitorLayout = S.lay("twoMonitor", {
     "repeat": true
   },
 });
-var twoMonitor = S.op("layout", {"name": twoMonitorLayout});
+var twoMonitor = S.op("layout", { "name": twoMonitorLayout });
 // Batch bind everything. Less typing.
 S.bnda({
   //external hotkeypad
@@ -167,16 +189,16 @@ S.bnda({
   "pad0": twoMonitor,
   "pad8": twoMonitor,
   "pad7": maximize,
-  "pad9": S.op("focus", {"direction": "behind"}),
-  "pad.": S.op("focus", {"direction": "behind"}),
+  "pad9": S.op("focus", { "direction": "behind" }),
+  "pad.": S.op("focus", { "direction": "behind" }),
 
   //moving windows 
   //left half keyboard
-  "v:alt;shift;ctrl": bookFull,
-  "l:alt;shift;ctrl": wideFull,
-  "c:alt;shift;ctrl": vertFull,
+  "v:alt;shift;ctrl": monLFull,
+  "l:alt;shift;ctrl": monMFull,
+  "c:alt;shift;ctrl": monRFull,
 
-  "u:alt;shift;ctrl": S.op("focus", {"direction": "behind"}),
+  "u:alt;shift;ctrl": S.op("focus", { "direction": "behind" }),
   "i:alt;shift;ctrl": leftHalf,
   "a:alt;shift;ctrl": maximize,
   "e:alt;shift;ctrl": rightHalf,
@@ -187,14 +209,14 @@ S.bnda({
 
   //focus apps
   //right half
-  "r:alt;shift;ctrl": S.op("focus", {"app": "PhpStorm"}),
-  "n:alt;shift;ctrl": S.op("focus", {"app": "Google Chrome"}),
-  "t:alt;shift;ctrl": S.op("focus", {"app": "Telegram"}),
-  "d:alt;shift;ctrl": S.op("focus", {"app": "Sourcetree"}),
-  "m:alt;shift;ctrl": S.op("focus", {"app": "Firefox"}),
-  "f:alt;shift;ctrl": S.op("focus", {"app": "Slack"}),
-  "q:alt;shift;ctrl": S.op("focus", {"app": "Fantastical 2"}),
-  "b:alt;shift;ctrl": S.op("focus", {"app": "Mail"}),
+  "r:alt;shift;ctrl": S.op("focus", { "app": "PhpStorm" }),
+  "n:alt;shift;ctrl": S.op("focus", { "app": "Google Chrome" }),
+  "t:alt;shift;ctrl": S.op("focus", { "app": "Telegram" }),
+  "d:alt;shift;ctrl": S.op("focus", { "app": "Sourcetree" }),
+  "m:alt;shift;ctrl": S.op("focus", { "app": "Firefox" }),
+  "f:alt;shift;ctrl": S.op("focus", { "app": "Slack" }),
+  "q:alt;shift;ctrl": S.op("focus", { "app": "Fantastical 2" }),
+  "b:alt;shift;ctrl": S.op("focus", { "app": "Mail" }),
 
   // "h:alt;shift;ctrl": S.op("hide", {"app": "current"}),
 
