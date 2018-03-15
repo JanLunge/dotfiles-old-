@@ -1,5 +1,10 @@
+#gruvbox vim theme
+#https://github.com/morhetz/gruvbox/wiki/Installation
+#
 #export ZSH=$HOME/.oh-my-zsh
 #ZSH_THEME=geometry/geometry
+[[ $TERM = xterm* ]] && TERM='xterm-256color'
+
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # # export MANPATH="/usr/local/man:$MANPATH"
 #
