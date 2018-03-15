@@ -1,9 +1,18 @@
-export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME=geometry/geometry
+#export ZSH=$HOME/.oh-my-zsh
+#ZSH_THEME=geometry/geometry
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # # export MANPATH="/usr/local/man:$MANPATH"
 #
-source $ZSH/oh-my-zsh.sh
+source $HOME/antigen.zsh
+antigen use oh-my-zsh
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-completions
+
+antigen theme geometry-zsh/geometry
+antigen apply
+#source $ZSH/oh-my-zsh.sh
+
 #
 
 # # Example aliases
@@ -65,10 +74,10 @@ function drpepper {
     figlet -f drpepper $1 | lolcat
 }
 function small {
-    figlet -f small $1 | lolcat	
+    figlet -f small $1 | lolcat
 }
 function lolt {
-    figlet -f $1 $2 | lolcat	
+    figlet -f $1 $2 | lolcat
 }
 #isometric1 -4
 #poison
