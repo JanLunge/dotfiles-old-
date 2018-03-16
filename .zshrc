@@ -8,7 +8,8 @@
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # # export MANPATH="/usr/local/man:$MANPATH"
 #
-source $HOME/antigen.zsh
+#source $HOME/antigen.zsh
+source $(brew --prefix)/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -139,6 +140,7 @@ function cdvn() {
 	cd ~/Code/MyVan/
 	slant 'MyVan'
 }
+alias c='pygmentize -g'
 
 #setup
 function setupconfs(){
