@@ -14,11 +14,11 @@
     <property name="KEYMAP" value="vim&#10;split&#10;refactor&#10;filestr&#10;file" />
     <property name="evlsprt3.173" value="19" />
     <property name="ts.lib.d.ts.version" value="2.6.2" />
-    <property name="file.gist.reindex.count" value="7743" />
-    <property name="PLUGIN_FILTER" value="vim&#10;vi&#10;git&#10;git line&#10;color ide" />
+    <property name="file.gist.reindex.count" value="7746" />
+    <property name="PLUGIN_FILTER" value="makefile&#10;vim&#10;vi&#10;git&#10;git line" />
     <property name="settings.code.style.selected.tab.JavaScript" value="Arrangement" />
     <property name="settings.code.style.selected.tab.PHP" value="Arrangement" />
-    <property name="SearchEveryWhereHistory" value="$&#10;entr&#10;filetempla&#10;mce&#10;develo" />
+    <property name="SearchEveryWhereHistory" value="-&#10;$&#10;entr&#10;filetempla&#10;mce" />
     <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
     <property name="Copy.OpenInEditor" value="true" />
     <property name="selected.color.option.type" value="TEXT" />
@@ -32,6 +32,7 @@
     <property name="FileTemplates.CurrentTab" value="Includes" />
     <property name="vcs.log.changes.splitter.proportion" value="0.70648146" />
     <property name="ideavim.statistics.timestamp" value="1520613395569" />
-    <property name="search.everywhere.max.popup.width" value="702" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
   </component>
 </application>

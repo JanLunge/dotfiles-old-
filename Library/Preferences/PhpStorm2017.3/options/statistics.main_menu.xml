@@ -6,9 +6,11 @@
       <entry path="File -&gt; Open Directory..." count="1" />
       <entry path="File -&gt; Open Recent -&gt; Reopen Project" count="3" />
       <entry path="File -&gt; Open..." count="1" />
-      <entry path="Run -&gt; Listen for debug connections" count="1" />
+      <entry path="Run -&gt; Debug..." count="1" />
+      <entry path="Run -&gt; Edit Configurations..." count="1" />
+      <entry path="Run -&gt; Listen for debug connections" count="3" />
       <entry path="Run -&gt; Toggle Line Breakpoint" count="1" />
-      <entry path="Run -&gt; Web Server Debug Validation" count="5" />
+      <entry path="Run -&gt; Web Server Debug Validation" count="7" />
       <entry path="VCS -&gt; Git -&gt; Show Current Revision" count="1" />
       <entry path="VCS -&gt; Git -&gt; Show History" count="1" />
       <entry path="View -&gt; Navigation Bar" count="1" />
