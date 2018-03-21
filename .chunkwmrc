@@ -116,3 +116,6 @@ chunkc tiling::rule --owner Finder --name Copy --state float
 chunkc tiling::rule --owner \"App Store\" --state float
 chunkc tiling::rule --owner \"Fantastical 2\" --state float
 
+chunkc set mouse_follows_focus all
+chunkc set window_focus_cycle all
+
