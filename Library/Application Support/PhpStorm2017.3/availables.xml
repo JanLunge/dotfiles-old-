@@ -11957,7 +11957,7 @@ int FormatKlmnop(int klmnop) { myKlmnop = klmnop; return myKlmnop; }
 <p></p>]]></description><version>0.1.26-SNAPSHOT</version><vendor email='neos@christianvette.de' url='https://github.com/cvette/intellij-neos'>Christian Vette</vendor><idea-version min="n/a" max="n/a" since-build='145.0' /><change-notes><![CDATA[0.1.26 
 <ul> 
  <li>Add code completion for EEL helpers</li> 
-</ul>]]></change-notes><depends>com.intellij.modules.platform</depends><depends>com.jetbrains.php</depends><depends>org.jetbrains.plugins.yaml</depends><rating>5.0</rating></idea-plugin><idea-plugin downloads='246' size='14390450' date='1483729972000' url=''><name>Grafter Macro Support</name><id>org.sth.grafter-macro-support</id><description><![CDATA[Provides syntax support for the Grafter library]]></description><version>1.0.0</version><vendor email='' url=''>Shane Auckland</vendor><idea-version min="n/a" max="n/a" since-build='143.0' /><change-notes><![CDATA[]]></change-notes><depends>org.intellij.scala</depends><rating>00</rating></idea-plugin><idea-plugin downloads='49806' size='251116' date='1521156788000' url=''><name>Yii2 Support</name><id>com.yii2support</id><description><![CDATA[<b>Plugin contains the following functionality</b> 
+</ul>]]></change-notes><depends>com.intellij.modules.platform</depends><depends>com.jetbrains.php</depends><depends>org.jetbrains.plugins.yaml</depends><rating>5.0</rating></idea-plugin><idea-plugin downloads='246' size='14390450' date='1483729972000' url=''><name>Grafter Macro Support</name><id>org.sth.grafter-macro-support</id><description><![CDATA[Provides syntax support for the Grafter library]]></description><version>1.0.0</version><vendor email='' url=''>Shane Auckland</vendor><idea-version min="n/a" max="n/a" since-build='143.0' /><change-notes><![CDATA[]]></change-notes><depends>org.intellij.scala</depends><rating>00</rating></idea-plugin><idea-plugin downloads='49806' size='252023' date='1521206572000' url=''><name>Yii2 Support</name><id>com.yii2support</id><description><![CDATA[<b>Plugin contains the following functionality</b> 
 <br> 
 <ul> 
  <li>Suggests for render() methods</li> 
@@ -11969,12 +11969,23 @@ int FormatKlmnop(int klmnop) { myKlmnop = klmnop; return myKlmnop; }
  <li>Url autocomplete</li> 
 </ul> 
 <br> Detailed information can be found in 
-<a href="https://github.com/nvlad/yii2support/blob/master/README.md" rel="nofollow">README.md</a>]]></description><version>0.8.42</version><vendor email='support@nvlad.com' url='http://nvlad.com'>NVlad</vendor><idea-version min="n/a" max="n/a" since-build='162.0' /><change-notes><![CDATA[<ul> 
+<a href="https://github.com/nvlad/yii2support/blob/master/README.md" rel="nofollow">README.md</a> 
+<br> 
+<br> Detailed changelog can be found in 
+<a href="https://github.com/nvlad/yii2support/blob/master/CHANGELOG.md" rel="nofollow">CHANGELOG.md</a>]]></description><version>0.8.42.3</version><vendor email='support@nvlad.com' url='http://nvlad.com'>NVlad</vendor><idea-version min="n/a" max="n/a" since-build='162.0' /><change-notes><![CDATA[<p><b>Features</b></p> 
+<ul> 
  <li>Change plugin settings structure</li> 
  <li>Add setup Yii Root Path in project</li> 
  <li>Add settings page for Views (Theme paths, View file extension, Default View class)</li> 
  <li>Action for go to render method call this View (by default Ctrl + Alt + R / Cmd + Alt + R, or Navigate -&gt; Goto View render call)</li> 
  <li>Inspection for missed variable declaration in View + QuickFix</li> 
+ <li>Support relative path to Yii root</li> 
+ <li>Path to missed View file in error message</li> 
+</ul> 
+<p>&nbsp;</p> 
+<p><b>Fixes</b></p> 
+<ul> 
+ <li>Fix View path resolving</li> 
 </ul>]]></change-notes><depends>com.intellij.database</depends><depends>com.intellij.modules.platform</depends><depends>com.jetbrains.php</depends><rating>4.9</rating></idea-plugin><idea-plugin downloads='4184' size='6364134' date='1505065272000' url=''><name>AEM Tools</name><id>com.aemtools</id><description><![CDATA[AEM Tools is a plugin which contains set of AEM related extensions and features 
 <ul> 
  <li><b>HTL</b>(<b>Sightly</b>) support: 
@@ -14590,7 +14601,7 @@ See <a href="http://jira.espn.com/secure/IssueNavigator.jspa?reset=true&jqlQuery
  <li>(WIP) Better properties validation (type checking)</li> 
  <li>(WIP) Working with dependent modules</li> 
  <li>(WIP) Type-specific autocompletion in interpolations</li> 
-</ul>]]></description><version>0.6.9.5</version><vendor email='vlad.rassokhin+intellij+hcl@gmail.com' url='https://github.com/VladRassokhin'>Vladislav Rassokhin</vendor><idea-version min="n/a" max="n/a" since-build='143.2000' /><change-notes><![CDATA[<li>Updated model data to match Terraform v0.11.3</li>]]></change-notes><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><rating>5.0</rating></idea-plugin><idea-plugin downloads='2960' size='22062' date='1435888260000' url=''><name>Oxidize</name><id>com.techern.oxidize</id><description><![CDATA[A plugin for Rust in IntelliJ IDEA. Currently contains very little in terms of features, but more will be added in coming versions.]]></description><version>0.0.1</version><vendor email='cruzjbishop@gmail.com' url=''>Cruz Bishop (Holding for Techern in 2016)</vendor><idea-version min="n/a" max="n/a" since-build='131.0' /><change-notes><![CDATA[0.0.1: Initial filetype support for Rust source and library files, as well as the Cargo Project file type]]></change-notes><depends>com.intellij.modules.platform</depends><rating>00</rating></idea-plugin><idea-plugin downloads='1702' size='13515053' date='1438464114000' url=''><name>NSIS Language Support</name><id>com.jotc.nsis.plugin.nsis</id><description><![CDATA[Language support for NSIS]]></description><version>1.0</version><vendor email='jot.company@gmail.com' url=''>JOT Company</vendor><idea-version min="n/a" max="n/a" since-build='131.0' /><change-notes><![CDATA[]]></change-notes><depends>com.intellij.modules.lang</depends><rating>5.0</rating></idea-plugin><idea-plugin downloads='2825195' size='21446825' date='1512235622000' url='http://github.com/vsch/idea-multimarkdown'><name>Markdown Navigator</name><id>com.vladsch.idea.multimarkdown</id><description><![CDATA[<img src="https://github.com/vsch/idea-multimarkdown/raw/master/assets/images/MNLogo.png?" height="20" width="20">Markdown Navigator 2.0 
+</ul>]]></description><version>0.6.9.5</version><vendor email='vlad.rassokhin+intellij+hcl@gmail.com' url='https://github.com/VladRassokhin'>Vladislav Rassokhin</vendor><idea-version min="n/a" max="n/a" since-build='143.2000' /><change-notes><![CDATA[<li>Updated model data to match Terraform v0.11.3</li>]]></change-notes><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><rating>5.0</rating></idea-plugin><idea-plugin downloads='2960' size='22062' date='1435888260000' url=''><name>Oxidize</name><id>com.techern.oxidize</id><description><![CDATA[A plugin for Rust in IntelliJ IDEA. Currently contains very little in terms of features, but more will be added in coming versions.]]></description><version>0.0.1</version><vendor email='cruzjbishop@gmail.com' url=''>Cruz Bishop (Holding for Techern in 2016)</vendor><idea-version min="n/a" max="n/a" since-build='131.0' /><change-notes><![CDATA[0.0.1: Initial filetype support for Rust source and library files, as well as the Cargo Project file type]]></change-notes><depends>com.intellij.modules.platform</depends><rating>00</rating></idea-plugin><idea-plugin downloads='1702' size='13515053' date='1438464114000' url=''><name>NSIS Language Support</name><id>com.jotc.nsis.plugin.nsis</id><description><![CDATA[Language support for NSIS]]></description><version>1.0</version><vendor email='jot.company@gmail.com' url=''>JOT Company</vendor><idea-version min="n/a" max="n/a" since-build='131.0' /><change-notes><![CDATA[]]></change-notes><depends>com.intellij.modules.lang</depends><rating>5.0</rating></idea-plugin><idea-plugin downloads='2825195' size='26366738' date='1521210685524' url='http://github.com/vsch/idea-multimarkdown'><name>Markdown Navigator</name><id>com.vladsch.idea.multimarkdown</id><description><![CDATA[<img src="https://github.com/vsch/idea-multimarkdown/raw/master/assets/images/MNLogo.png?" height="20" width="20">Markdown Navigator 2.0 
 <p><strong><a href="http://daringfireball.net/projects/markdown" rel="nofollow"><span>Markdown</span></a> language support for IntelliJ platform</strong></p> 
 <p><strong>A Markdown plugin</strong> with GFM and a <strong>matching</strong> preview style.</p> 
 <p><strong>Get Markdown Navigator <a href="http://vladsch.com/product/markdown-navigator" rel="nofollow">enhanced edition</a> to unlock all productivity features.</strong></p> Document with pleasure! 
@@ -14625,98 +14636,182 @@ See <a href="http://jira.espn.com/secure/IssueNavigator.jspa?reset=true&jqlQuery
  <li><strong>Fast typing response</strong> for distraction free editing</li> 
  <li><strong>Fully customizable</strong> to adjust to your preferences and project needs</li> 
 </ul> 
-<p><img src="https://raw.githubusercontent.com/vsch/idea-multimarkdown/master/assets/images/plugin_description_img2.png" alt="Screenshot"></p>]]></description><version>2.4.0</version><vendor email='vladimir.schneider@gmail.com' url='http://github.com/vsch'>Vladimir Schneider</vendor><idea-version min="n/a" max="n/a" since-build='143.2370' /><change-notes><![CDATA[2.4.0 - Bug Fix &amp; Enhancement Release 
+<p><img src="https://raw.githubusercontent.com/vsch/idea-multimarkdown/master/assets/images/plugin_description_img2.png" alt="Screenshot"></p>]]></description><version>2.5.0</version><vendor email='vladimir.schneider@gmail.com' url='http://github.com/vsch'>Vladimir Schneider</vendor><idea-version min="n/a" max="n/a" since-build='163.15529' /><change-notes><![CDATA[2.5.0 - Bug Fix &amp; Enhancement Release 
 <ul> 
- <li>Fix: #517, Invalid tool tip for “Show Breadcrumb text”</li> 
- <li>Change: #520, Not working: As you type automation: Double of bold/emphasis markers and remove inserted ones if a space is typed. Enable these options in code style, disabled by default.</li> 
- <li>Fix: #509, Text with colons is incorrectly interpreted as an invalid emoji shortcut</li> 
- <li>Add: #507, How to be sure that HTML auto generated link will have unchanged url. Link format option for HTML export: page relative, project relative, http: absolute, file: absolute if option <code>Link to exported HTML</code> is not selected.</li> 
- <li>Add: #466, Indents with 4 spaces instead of 2 as I like. Code style option for indent size added sets number of spaces to insert when pressing tab.</li> 
- <li>Change: Remove attribute and settings migration from pre 2.3.0 versions.</li> 
- <li>Add: nested heading outline collapsing</li> 
- <li>Fix: improved HTML to markdown conversion from Apple Mail copied text.</li> 
- <li>Fix: don’t show emoji completions in link address part ( http: triggers it)</li> 
- <li>Fix: abbreviation navigation and refactoring was not implemented</li> 
- <li>Fix: line markers generate for leaf elements only, performance improvement</li> 
- <li>Fix: swing preview on linux not showing fixed pitch font for code</li> 
- <li>Fix: Task list items now require indent at task item marker not item content, to match GitHub parsing rules. Indenting to content column treats children as inline code and child list items not separated by a blank line as lazy continuation lines.</li> 
- <li>Fix: formatter for new task item indentation rules.</li> 
- <li>Fix: remove <code>Replace File Content</code> option from non-image target ref drop downs in paste/modify image dialog, and all link options from copy/drop image dialog and link drop/paste ref options dialog.</li> 
- <li>Fix: #489, Paste Image does not create file if parent directory does not exist.</li> 
- <li>Fix: #484, Open links in preview, not browser. Option added to preview settings to have page relative and repo relative links resolve to GitHub files when selected. When not selected they resolve to local project files.</li> 
- <li>Fix: #486, Multi-line links do not preview correctly, when in <code>Line</code> preview element highlight mode.</li> 
- <li>Fix: #481, Will not allow me to crop beyond 200px, now limits are derived from the image dimensions and image operations.</li> 
- <li>Fix: Update to latest flexmark-java supporting CommonMark Spec 0.28.</li> 
- <li>Fix: TOC entries would exclude typographic characters when “text only” option was used with typographic parser extension enabled.</li> 
- <li>Fix: HTML to Markdown not adding HTML comment between consecutive lists</li> 
- <li>Fix: #479, Multi-line URL images are not converted in PDF export or Copy HTML Mime</li> 
- <li>Add: Show “Apply all ‘…’” intention on any element option to allow showing file level intentions to be available on any element. Otherwise only shown on elements which they affect.</li> 
- <li>Add: enable image intentions on multi-line URL image links</li> 
- <li>Add: Code Folding option in settings for embedded image links</li> 
- <li>Add: HTML generation options to convert image links to embedded images, with separate option for <a href="http:" rel="nofollow">http://</a> and <a href="https:" rel="nofollow">https://</a> image urls.</li> 
- <li>Add: base64 embedded image display in Swing Preview browser</li> 
- <li>Add: <code>Base64 Encoded</code> as a link format for pasted images and dropped files to the Paste Image dialog.</li> 
- <li>Fix: base64 encode intention would keep path of url if it was present</li> 
- <li>Fix: image reference links to references with base64 encoded images would show as unresolved</li> 
- <li>Add: intentions to convert images to base64 encoding and vice-versa</li> 
- <li>Fix: base64 encoded embedded images did not display in JavaFX preview</li> 
- <li>Fix: preview navigation to links with anchor refs and line anchor refs</li> 
- <li>Fix: dropping a file in a document appends <code>null</code> string to the file name in error.</li> 
- <li>Fix: #468, Move (refactoring) of .md files breaks links to sections in same file.</li> 
- <li>Fix: reference paste with line ref anchor would always paste page relative format URL regardless of the link paste format (set with file copy drop action).</li> 
- <li>Fix: diagnostics/713, tree view icon update before <code>FileManager</code> has been initialized will to return markdown file type (without resolving sub-type).</li> 
- <li>Add: Convert markdown to HTML intention for fenced code and indented code blocks.</li> 
- <li>Fix: unresolved link references would be rendered in HTML instead of being treated as plain text. Broken by <code>Reference</code> link map code.</li> 
- <li>Fix: paste reference past end of line will insert spaces to caret column before inserting link.</li> 
- <li>Fix: links from FQN references with spaces did not url encode the link.</li> 
- <li>Fix: reference to link conversion for PhpStorm to truncate the reference at the <code>:</code> since PhpStorm is not able to convert FQN strings with class method names.</li> 
- <li>Add: use QualifiedNameProviders to resolve reference to link conversion.</li> 
- <li>Add: logic to not convert qualified string to link when caret is inside inline code, fenced code or between two back-ticks.</li> 
- <li>Fix: HTTP links with anchor refs should not highlight anchor links as unresolved.</li> 
- <li>Add: paste of file reference with or without line number converted to paste of link with GitHub line ref anchor added if line number is part of the reference. This will insert/replace link.</li> 
- <li>Fix: non-vcs projects links without a path would show unresolved even when files exist.</li> 
-</ul> 2.3.8 - Bug Fix Release 
-<ul> 
- <li>Add: GitHub Line reference anchors in the form <code>L#</code> or <code>L#-L#</code> for line ranges. Now navigating to such an anchor in a project file will move the caret to the line and if second form is used select the lines.</li> 
- <li>Add: with JavaFX browser clicking on task item box in preview toggles open/closed task status in source.</li> 
- <li>Fix: image refs and image links to non-raw GitHub image files to show as warning. Only show warning for references not in raw when referenced by image refs.</li> 
- <li>Add: Apply all ‘…’ in file intentions where these make sense.</li> 
- <li>Add: intention to convert between typographic symbols and markdown smarts/quotes extension text.</li> 
- <li>Add: <code>HTML block deep parsing</code> parser option to allow better handling of raw text tag parsing when they are not the first tag on the first line of the block.</li> 
- <li>Add: split inline code class <code>line-spliced</code> for code elements split across multiple lines not to appear as two inline code elements in preview.</li> 
- <li>Fix: HTML generation with line source line highlighting when inline styling spans source lines</li> 
- <li>Add: #74, Launching external URLs inside the browser, now <code>navigate to declaration</code> opens url in browser, ftp or mail client depending on the link. Can also use line markers for navigation of these elements.</li> 
- <li>Fix: parsing of lists in fixed 4 spaces mode would not allow last item to be loose</li> 
- <li>Fix: reference to non-image but not used as image target warning not raw.</li> 
- <li>Fix: exception when navigating next/previous table cells in editor without an associated virtual file.</li> 
- <li>Fix: #461, TOC with HTML generated content causes exception if skipping heading levels</li> 
- <li>Fix: #460, TOC options do not change default Heading level</li> 
- <li>Fix: #459, PDF export does not resolve local ref anchors</li> 
- <li>Fix: #456, Register r markdown code chunk prefix</li> 
- <li>Fix: #453, Option to hide toolbar</li> 
- <li>Fix: #454, Incorrect filename inspection error, weak warning now only for wiki link targets that contain spaces in resolved link.</li> 
- <li>Fix: flexmark-java issue 109, image ref loosing title tag.</li> 
- <li>Add: GitBook compatible include tags when <code>GitBook compatibility mode</code> is enabled in <code>Parser</code> options.</li> 
- <li>Fix: Nested stub index exception in reference search</li> 
- <li>Fix: breadcrumb tooltip of task items would be missing the task item marker</li> 
- <li>Fix: completions broken on Windows</li> 
- <li>Fix: document format erroneously creates column spans for some tables.</li> 
- <li>Fix: diagnostics/531, line painter provider passed line number &gt; document line count.</li> 
- <li>Fix: diagnostics/498, highlight in preview causing exception</li> 
- <li>Fix: diagnostics/497, flexmark-java lib erroneous assert failure</li> 
- <li>Fix: #447, Exported HTML has unexpected CSS and JS URLs</li> 
- <li>Fix: #445, there should no be default language injection in bare code chunks</li> 
- <li>Add: handling of optional quotes for jekyll include tags. Either single <code>'</code> or double <code>"</code> quotes will be ignored if the file name is wrapped in them.</li> 
- <li>Fix: API break with version 2016.2.3 by using EditorModificationUtil methods missing from that version.</li> 
- <li>Fix: #444, Markdown Navigator 2.3.7 breaks paste of github checkout url</li> 
- <li>Fix: #441, false positive typo annotation in header, caused by using IdentifierSplitter instead of TextSplitter to handle elements that can have references.</li> 
- <li>Fix: #442, Image Paste in Windows always pastes absolute <a rel="nofollow">file://</a> regardless of selection</li> 
- <li>Add: Insert table column on right actions and changed description of previous action to insert table column on left.</li> 
- <li>Fix: exception when exporting PDF or Copy HTML Mime</li> 
- <li>Fix: #440, Auto links should not appear in fenced code</li> 
- <li>Add: #411, Network drives links are not resolved correctly, URI links outside of project now error highlighted if the file does not exist</li> 
- <li>Add: #433, Support external links for the Link Map (eg. JIRA link), Reference to Link Map to allow creating automatic reference URLs from Reference IDs</li> 
-</ul>]]></change-notes><depends>(optional) com.intellij.tasks</depends><depends>(optional) org.intellij.intelliLang</depends><depends>(optional) org.jetbrains.plugins.yaml</depends><depends>Git4Idea</depends><depends>com.intellij.modules.lang</depends><rating>3.9</rating></idea-plugin><idea-plugin downloads='14483' size='744841' date='1439538581000' url=''><name>CSharp</name><id>in.xiv.cs</id><description><![CDATA[CSharp language support.
+ <li>Add: link and image paste/drop options to exported/imported settings management</li> 
+ <li>Fix: preview window would show links resolved after link map transformation to <code>http://</code> as <code>local only</code>.</li> 
+ <li>Fix: #567, ’_’s are replaced by ’-’s in TOC, GitHub now preserves <code>_</code> in heading anchor refs</li> 
+ <li>Fix: paste handler using 2018 api <code>getSelectedEditor()</code></li> 
+ <li>Fix: #564, Some problems with “Copy / Drop Image” dialog. Modify image directory history drop down to include, in order of priority: 
+  <ul> 
+   <li>last used image directory of the current file</li> 
+   <li>image directories of images in the current file, ordered by count of occurrence</li> 
+   <li>image directories in the current project, ordered by count of occurrence</li> 
+  </ul> </li> 
+ <li>Fix: absolute <code>http://</code> link from main repo to wiki page which is located in a sub-directory would show as unresolved</li> 
+ <li>Add: help topics for all settings panels</li> 
+ <li>Fix: improve spelling error alignment in text with many embedded inline markers</li> 
+ <li>Fix: compatibility with IDE versions 2016.3, limit since version to 163.15529</li> 
+ <li>Fix: COPY_HTML_MIME and PDF stylesheets now combine user provided attributes with defaults so only difference has to be added to custom CSS.</li> 
+ <li>Add: emoji images to COPY_HTML_MIME and PDF stylesheets so emoji display properly.</li> 
+ <li>Fix: wiki page file name rename refactoring. Broken since 2.4.0 release</li> 
+ <li>Fix: manually exporting a file from the toolbar now treats this as if <code>Export on Save</code> was set for the file.</li> 
+ <li>Fix: update GitHub wiki home link resolution for image links. Changed recently by GitHub</li> 
+ <li>Fix: trailing spaces filter behavior changed, postponed trailing spaces would all be deleted.</li> 
+ <li>Fix: reverse fix for “WebView should be available by now”, was causing deadlock if Accessibility features were enabled.</li> 
+ <li>Fix: JavaFX preview was using project profile parser settings, not scope based rendering profile parser settings.</li> 
+ <li>Fix: Formatting default table column alignment when no alignment marker is specified, header columns are centered, body columns are left aligned.</li> 
+ <li>Add: Export to treat emoji images as image linked files.</li> 
+ <li>Fix: NoSuchMethodError for IDE versions &lt; 2018</li> 
+ <li>Fix: image paste/modify dialog to not add _# suffix to file name if pasting on image target ref and on paste action is “Replace file content” for link-ref targeting an image, since the name should be the same as the link-ref in order to replace file content. Changing the name will save it under a new file and change the link-ref.</li> 
+ <li>Fix: remove old project settings handling and replace with IDE provided method. Old settings copied to default project settings on first plugin initialization after upgrade. Now default project settings support having defaults for Rendering &gt; Profiles</li> 
+ <li>Add: Format options for Attributes: 
+  <ul> 
+   <li>space inside braces: no change, add, remove</li> 
+   <li>space around attribute equal sign: no change, add, remove</li> 
+   <li>attribute value quotes: 
+    <ul> 
+     <li>No Change,</li> 
+     <li>None, double, single preferred,</li> 
+     <li>None, single, double preferred,</li> 
+     <li>Double, single preferred,</li> 
+     <li>Double quotes always,</li> 
+     <li>Single, double preferred,</li> 
+     <li>Single quotes always,</li> 
+    </ul> </li> 
+  </ul> </li> 
+ <li>Fix: table formatting would disable wrap on typing unnecessarily because it failed to properly detect table at caret offset.</li> 
+ <li>Add Table Caption formatting options: 
+  <ul> 
+   <li>Caption: no change, always add, remove if empty, always remove;</li> 
+   <li>Caption space: no change, space around text, trim spaces check box.</li> 
+  </ul> </li> 
+ <li>Add: #556, Default editor layout &gt; Use last selected layout, option to have layout follow last editor layout change action.</li> 
+ <li>Fix: typographic <code>'</code> breaking words for spell checker generates erroneous spelling errors.</li> 
+ <li>Fix: spell checking now done across inline markup. Error underline and Change to: intention do not work well because of interspersed markup messing up offsets but at least spelling errors will be highlighted. For example <code>do**sn't**</code> will now show a spelling error because the effective text is <code>dosn't</code>.</li> 
+ <li>Add: history to CSS settings URI text box.</li> 
+ <li>Fix: default completion for explicit <code>http://</code> absolute links to wiki pages uses the extension</li> 
+ <li>Fix: <code>file://</code> links to wiki pages with anchor refs showed as “Only resolving locally” in the preview, all <code>file://</code> links show as resolving only locally.</li> 
+ <li>Fix: Admonition extension would be disabled if Attributes extension was not enabled.</li> 
+ <li>Add: Admonition parser extension. <a href="https://github.com/vsch/flexmark-java/wiki/Extensions#admonition" rel="nofollow">Admonition Extension</a> To create block-styled side content.</li> 
+ <li>Fix: JavaFX WebView debug page reload in Not on FX application thread exception.</li> 
+ <li>Fix: remove the “canDebug” field and replace with dynamic value.</li> 
+ <li>Fix: remove all break points on connection shutdown.</li> 
+ <li>Fix: JavaFX debugger core dumping if turning off debugging while it is paused.</li> 
+ <li>Fix: Project Default settings not being copied to new projects</li> 
+ <li>Fix: intermittent preview element highlight stopped working until page refresh</li> 
+ <li>Fix: pasting a page relative URL would be mistaken for FQN reference and always paste a link instead of text</li> 
+ <li>Fix: renaming rendering profile would not be saved properly.</li> 
+ <li>Fix: copy action on rendering profiles caused exception</li> 
+ <li>Add: all console commands work with Chrome dev tools.</li> 
+ <li>Fix: Chrome dev tools console evals and console logging from JavFX WebView scripts.</li> 
+ <li>Fix: #561, Scroll sync and highlight preview element broken in EAP 2.4.0.44</li> 
+ <li>Remove: FirebugLite script option for JavaFX. It never worked for debugging and Chrome Dev Tools work really well with JavaFX WebView.</li> 
+ <li>Add: “Toggle Editor Split Orientation” action to toggle Vertical/Horizontal split orientation</li> 
+ <li>Add: drag/drop file inside inline, fenced or indented code to insert file name.</li> 
+ <li>Add: dropping file after end of line with virtual spaces enabled, will insert spaces to fill virtual spaces.</li> 
+ <li>Fix: Adding explicit attribute to heading did not put space between text and attributes element.</li> 
+ <li>Add: file/ref anchor target search/explore intention on unresolved link anchor ref. 
+  <ul> 
+   <li>Fix: launching on an anchor and cancelling, does not show intention until file is edited.</li> 
+   <li>Add: do a partial match for anchor when no anchors match exactly.</li> 
+   <li>Add: filter text box to filter anchor list (show all partials, the rest hidden) otherwise too many in the list.</li> 
+  </ul> </li> 
+ <li>Fix: Github collapse headers script not working in 2018.1</li> 
+ <li>Fix: intermittent position not highlighting in preview.</li> 
+ <li>Fix: Drag/Drop copy files does not save link drop options.Always resets or gets them wrong.</li> 
+ <li>Add: buttons for link and image drop/paste options in markdown settings</li> 
+ <li>Add: Updated emoji to include full set of GitHub supported ones 
+  <ul> 
+   <li>Add: option to select which shortcuts to recognize: 
+    <ul> 
+     <li>Emoji Cheat Sheet</li> 
+     <li>GitHub</li> 
+     <li>Both: Emoji Cheat Sheet, GitHub (in order of preference for URL generation in HTML)</li> 
+     <li>Both: GitHub, Emoji Cheat Sheet (in order of preference for URL generation in HTML)</li> 
+    </ul> </li> 
+   <li>Add: option to select what type of image to use: 
+    <ul> 
+     <li>Images: image files only</li> 
+     <li>Unicode and Images: use Unicode characters when available, image file otherwise</li> 
+     <li>Unicode Only: only use unicode characters, don’t recognize shortcuts which have no unicode equivalent.</li> 
+    </ul> </li> 
+   <li>Add: option to preview settings to replace Unicode emoji characters which have a corresponding image file with the image file. This allows preview browser to display Unicode emoji for which the browser would display unrecognized character symbol instead.</li> 
+  </ul> </li> 
+ <li>Update to flexmark-java-0.32.2 
+  <ul> 
+   <li>Fix: java-flexmark API changes</li> 
+   <li>Fix: java-flexmark Attributes processing changes</li> 
+   <li>Add: Parser option for Attributes assignment to text</li> 
+   <li>Add: Parser option for Emoji Shortcut Type, Emoji Image Type</li> 
+   <li>Add: Preview option for replacing Emoji unicode with image</li> 
+  </ul> </li> 
+ <li>Add: settings option to allow directories as link targets. Allows directories to be used in links. This functionality affects operation to completions, annotations, drag/drop link creation and navigation.</li> 
+ <li>Add: Drag/Drop link creation in Wiki should have wiki option for link format.</li> 
+ <li>Fix: <code>http://</code> link to wiki home without the file shows as unresolved by annotator</li> 
+ <li>Fix: change explicit to wiki not showing if link format is <a href="http:" rel="nofollow">http://</a> or <a href="https:" rel="nofollow">https://</a> absolute</li> 
+ <li>Fix: when converting explicit to wiki don’t generate text &amp; page ref if the explicit link text is the same as the file part of the target: <code>[Page-Ref](Page-Ref.md)</code> -&gt; <code>[[Page Ref]]</code>, not <code>[[Page-Ref|Page Ref]]</code></li> 
+ <li>Fix: Allow links to directories under the repo not to show them as unresolved. Create ref to directory object if it is under VCS</li> 
+ <li>Fix: drag/drop directories to create a link to the directory</li> 
+ <li>Fix: document format would remove table caption element</li> 
+ <li>Add: Query user for new id on explicit id to heading intention to save a step of rename refactoring it.</li> 
+ <li>Add: if a heading has explicit id attributes, rename refactoring for it is disabled since the id is not part of attributes.</li> 
+ <li>Add parser option to parse inline HTML for <code>&lt;a id="..."&gt;</code> for anchor targets</li> 
+ <li>Fix abbreviation definition with empty abbreviation would cause an exception</li> 
+ <li>Add Option to enable/disable use of image URI query serial, used to force preview update of image when the image file changes. Disabled by default to reduce java image caching memory issues.</li> 
+ <li>Fix: custom paste handling into scratch files was not handled in CLion, possibly other non-Java IDEs.</li> 
+ <li>Fix: #554, Settings, Import and Copy from project do not get applied until corresponding settings pane is viewed. The settings would be changed but not applied until the settings pane was clicked on first.</li> 
+ <li>Fix: diagnostic/1159, Inserting table rows could cause an index out bounds exception</li> 
+ <li>Fix: files not under VCS root would show no completions for relative addressing, only had completions for <code>file://</code> format completions.</li> 
+ <li>Add: recall of the last imported settings file to make it easier to reset settings to a known value.</li> 
+ <li>Add: markdown Application settings to exported and imported settings.</li> 
+ <li>Fix: disable local only status for links and annotation when the link is to the file itself.</li> 
+ <li>Add: allow source/preview synchronization and search/selection highlighting in basic version.</li> 
+ <li>Fix: diagnostic/1140, NPE in flexmark-java core node renderer.</li> 
+ <li>Fix: diagnostic/1141, null editor causes exception in toolbar button test.</li> 
+ <li>Add: #549, Add settings management functionality. Now in main settings panel there is a “Manage…” button in top-right corner, clicking it pops up a menu with the following options: 
+  <ul> 
+   <li><code>Copy to Project Defaults</code></li> 
+   <li><code>Copy from Project Defaults</code></li> 
+   <li><code>Export Settings</code></li> 
+   <li><code>Import Settings</code></li> 
+   <li><code>Reset Settings</code> to reset settings to default. Project defaults, current project settings and markdown navigator application settings.</li> 
+  </ul> <p>These actions copy from current unsaved project settings and to current unsaved project settings therefore you can modify settings, copy to project defaults (or export) and then cancel, result will be project defaults (or exported settings) having modified settings while project settings being those before modification.</p> <p>If you copy from defaults or import a file followed by <code>Cancel</code> then no settings will be modified.</p> </li> 
+ <li>Fix: #548, When “Autoscroll to source” is enabled in project view, markdown navigator editor steals focus when moving through project view with keyboard arrows.</li> 
+ <li>Fix: #542, Typographical Error in PHPStorm Preferences &gt; Editor &gt; Code Style &gt; Markdown</li> 
+ <li>Add: option in settings to enable editor paste handler registration so that paste handler is enabled by default. Because the IDE has a lot of formatter exceptions on paste which get erroneously attributed to the plugin when it delegates paste action to previous handler. Now a notification balloon will inform of the IDE exception and offer a link to disable paste handler customization.</li> 
+ <li>Fix: #546, Panel is guaranteed to be not null Regression.</li> 
+ <li>Fix: #260, Add horizontal split editor option to allow preview below the text editor. Added option in Languages &amp; Frameworks &gt; Markdown: <code>Vertical Text/Preview Split</code>, default not selected.</li> 
+ <li>Fix: #524, Dedent shortcut not working properly.</li> 
+ <li>Fix: #539, Big local images (e.g. .gif) referred to in an open .md file get locked and cause merge conflicts and issues on checkout. Now swing implements disable GIF images option.</li> 
+ <li>Fix: #512, Add keyboard shortcut to <code>Cycle between Preview only and Editor only</code>. Instead added application setting to select text/split or text/preview toggle for the toggle editor layout action.</li> 
+ <li>Fix: #511, <code>Cycle split layout</code> shortcut stop working when <code>Preview Only</code> is selected.</li> 
+ <li>Fix: #527, How to use <em>italics</em> instead of <em>italics</em> when pressing <code>Ctrl+I</code>. Option added to Languages &amp; Frameworks &gt; Markdown: <code>Use asterisks (*) for italic text</code>, enabled by default. When enabled italic action will use only asterisks for as markers.</li> 
+ <li>Fix: #535, Documentation for link maps and mapping groups. Documentation link added to Link Map settings panel.</li> 
+ <li>Fix: diagnostic/1100, start/end offset on paste beyond end of document</li> 
+ <li>Fix: clicking on a link with anchor ref by name of element would not scroll element into view</li> 
+ <li>Add: #391, #anchor tags not working. Added anchors of the form <code>&lt;a .... attr=anchorId ...&gt;...&lt;/a&gt;</code> where <code>attr</code> is <code>id</code> or <code>name</code> to be treated as anchor ref targets. NOTE: the first name or id attribute will be treated as the “anchor target” the other as a reference to the anchor target. If both have the same string value then renaming one will rename the other.</li> 
+ <li>Fix: regex error flexmark-java attributes parser which could cause a parsing loop</li> 
+ <li>Add: parser option to not generate duplicate dashes <code>-</code> in heading ids</li> 
+ <li>Fix: fenced code content erroneously processed GitHub issue marker <code>#</code>.</li> 
+ <li>Fix: #544, Export to PDF greyed out. Editor actions would be disabled if the text editor was not visible.</li> 
+ <li>Add: parser options for <a href="https://github.com/vsch/flexmark-java/wiki/Extensions#attributes" rel="nofollow">Attributes Extension</a> and <a href="https://github.com/vsch/flexmark-java/wiki/Extensions#enumerated-reference" rel="nofollow">Enumerated Reference</a> of flexmark-java. 
+  <ul> 
+   <li>Add: heading intentions to add/remove explicit id</li> 
+   <li>Add: completions for link anchors to id attribute values</li> 
+   <li>Add: completions for enumerated references and reference formats</li> 
+   <li>Add: formatting options and formatting for Enumerated References</li> 
+   <li>Add: error/unused annotations for enumerated reference, enumerated format and attribute id</li> 
+   <li>Add: refactoring/navigation for Enumerated Reference format id’s, Attribute Id’s, Enumerated Reference link/text.</li> 
+  </ul> </li> 
+ <li>Fix: diagnostic: 1055, sometimes virtual file == null for a PsiFile causing an exception.</li> 
+ <li>Add: option to add serial query suffix to CSS URI which increments when the css file changes (only <a rel="nofollow">file://</a> URI’s and document relative URLs are supported.)</li> 
+ <li>Fix: diagnostic 1030, when bread-crumb provider steps up to file level while looking for headings.</li> 
+ <li>Fix: diagnostic: 1032, sometimes an exception is thrown “AssertionError: Unexpected content storage modification”</li> 
+ <li>Fix: diagnostic 1033, paste handler exception <code>IllegalStateException: Clipboard is busy</code></li> 
+ <li>Fix: diagnostic 1035, null pointer exception in Swing preview when image tag has no <code>src</code> attribute.</li> 
+ <li>Fix: diagnostic 1047, sometimes an IOException is generated if markdown sub-type is requested during indexing operation.</li> 
+</ul>]]></change-notes><depends>Git4Idea</depends><depends>com.intellij.modules.lang</depends><rating>3.9</rating></idea-plugin><idea-plugin downloads='14483' size='744841' date='1439538581000' url=''><name>CSharp</name><id>in.xiv.cs</id><description><![CDATA[CSharp language support.
 <br /> 
 <em>very experimental state</em>
 <br />Right now only syntax support and grammar validation]]></description><version>0.1</version><vendor email='d@xiv.in' url='http://s.xiv.in/'>XIV</vendor><idea-version min="n/a" max="n/a" since-build='131.0' /><change-notes><![CDATA[Alpha:First version ever.
@@ -19993,7 +20088,7 @@ var hi    = {
  <li>0.3 - Kotlin support.</li> 
  <li>0.2 - Better detection of context based on caret.</li> 
  <li>0.1 - Basic approval.</li> 
-</ul>]]></change-notes><depends>org.jetbrains.kotlin</depends><rating>00</rating></idea-plugin><idea-plugin downloads='2305' size='28719' date='1513621959000' url=''><name>Codeception Framework</name><id>com.jetbrains.php.codeception</id><description><![CDATA[Allows to use Codeception test framework for PHP]]></description><version>173.4127.13</version><vendor email='' url=''>JetBrains</vendor><idea-version min="n/a" max="n/a" since-build='173.4127' until-build='173.*'/><change-notes><![CDATA[]]></change-notes><depends>com.intellij.modules.ultimate</depends><depends>com.jetbrains.php</depends><depends>com.jetbrains.php.behat</depends><depends>org.jetbrains.plugins.yaml</depends><rating>00</rating></idea-plugin><idea-plugin downloads='411' size='8854' date='1493896504000' url='https://github.com/Haehnchen/idea-php-behat-plugin'><name>Behat Enhancement</name><id>de.espend.idea.php.behat</id><description><![CDATA[Features 
+</ul>]]></change-notes><depends>org.jetbrains.kotlin</depends><rating>00</rating></idea-plugin><idea-plugin downloads='2305' size='30934' date='1521201667000' url=''><name>Codeception Framework</name><id>com.jetbrains.php.codeception</id><description><![CDATA[Allows to use Codeception test framework for PHP]]></description><version>173.4674.46</version><vendor email='' url=''>JetBrains</vendor><idea-version min="n/a" max="n/a" since-build='173.4674' until-build='173.*'/><change-notes><![CDATA[]]></change-notes><depends>com.intellij.modules.ultimate</depends><depends>com.jetbrains.php</depends><depends>com.jetbrains.php.behat</depends><depends>org.jetbrains.plugins.yaml</depends><rating>00</rating></idea-plugin><idea-plugin downloads='411' size='8854' date='1493896504000' url='https://github.com/Haehnchen/idea-php-behat-plugin'><name>Behat Enhancement</name><id>de.espend.idea.php.behat</id><description><![CDATA[Features 
 <ul> 
  <li>Linemarker and intention for test runner in Feature and Scenario</li> 
 </ul>]]></description><version>0.1</version><vendor email='daniel@espendiller.net' url='http://espend.de'>Daniel Espendiller</vendor><idea-version min="n/a" max="n/a" since-build='171.3780' /><change-notes><![CDATA[0.1 

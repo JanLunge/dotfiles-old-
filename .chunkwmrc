@@ -34,8 +34,8 @@ chunkc core::hotload 0
 #
 
 chunkc set global_desktop_mode           bsp
-chunkc set 2_desktop_mode                monocle
-chunkc set 5_desktop_mode                float
+#chunkc set 2_desktop_mode                monocle
+#chunkc set 5_desktop_mode                float
 
 chunkc set global_desktop_offset_top     20
 chunkc set global_desktop_offset_bottom  60
@@ -43,10 +43,10 @@ chunkc set global_desktop_offset_left    20
 chunkc set global_desktop_offset_right   20
 chunkc set global_desktop_offset_gap     15
 
-chunkc set 3_desktop_offset_top          190
-chunkc set 3_desktop_offset_bottom       190
-chunkc set 3_desktop_offset_left         190
-chunkc set 3_desktop_offset_right        190
+#chunkc set 3_desktop_offset_top          190
+#chunkc set 3_desktop_offset_bottom       190
+#chunkc set 3_desktop_offset_left         190
+#chunkc set 3_desktop_offset_right        190
 
 chunkc set desktop_padding_step_size     10.0
 chunkc set desktop_gap_step_size         5.0
@@ -94,8 +94,8 @@ chunkc set focused_border_width          5
 chunkc set focused_border_radius         0
 chunkc set focused_border_skip_floating  0
 
-chunkc set wallpaper $HOME/Pictures/Wallpapers/04108_lakeohau_3840x2400.jpg
-chunkc set wallpaper_blur 15.0
+#chunkc set wallpaper $HOME/Pictures/Wallpapers/chokung-valley.png
+#chunkc set wallpaper_blur 15.0
 
 #
 # NOTE: specify plugins to load when chunkwm starts.
@@ -114,4 +114,5 @@ chunkc core::load blur.so
 
 chunkc tiling::rule --owner Finder --name Copy --state float
 chunkc tiling::rule --owner \"App Store\" --state float
+chunkc tiling::rule --owner \"Fantastical 2\" --state float
 
