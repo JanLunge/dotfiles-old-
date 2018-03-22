@@ -51,6 +51,8 @@ alias swdock="undockall && updock"
 alias chmoddir="find . -type d -name \* -exec chmod 775 {} \;"
 alias chmodfiles="find . -type f -exec chmod 644 {} \;"
 
+#new vim
+alias vim="nvim"
 
 #sudo
 alias fuck='sudo $(fc -ln -1)'
@@ -138,9 +140,17 @@ function c() {
 #bookmarks
 function cdvn() {
 	cd ~/Code/MyVan/
+	clear
 	slant 'MyVan'
 }
+function cdac() {
+	cd ~/Code/AlwaysCurious/
+	clear
+	slant 'AlwaysCurious'
+}
 alias c='pygmentize -g'
+alias rechunk='brew services restart chunkwm'
+alias chrome='open -a "Google Chrome"'
 
 #setup
 function setupconfs(){

@@ -1,10 +1,10 @@
+" Plug 'terryma/vim-multiple-cursors'
 call plug#begin('~/.config/nvim/plugged')
 Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'morhetz/gruvbox'
-Plug 'terryma/vim-multiple-cursors'
 Plug 'Valloric/YouCompleteMe'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -13,15 +13,18 @@ Plug 'vimwiki/vimwiki'
 call plug#end()
 colorscheme molokai256
 set mouse=a
-set number
+set number		" show line numbers
+set relativenumber 	" show relativ eline numbers
+set cursorline
 set nocompatible
 filetype plugin on
 
 
 " nerdtree config
-map <C-m> :NERDTreeToggle<CR>
+nnoremap <C-m> :NERDTreeToggle<CR>
 " Show hidden files by default.
 let NERDTreeShowHidden = 1
+let g:NERDTreeQuitOnOpen = 1
 
 " airline settings
 let g:airline#extensions#tabline#enabled = 2

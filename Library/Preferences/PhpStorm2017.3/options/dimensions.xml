@@ -3,7 +3,7 @@
     <location key="FileChooserDialogImpl.0.0.1920.1080" x="726" y="185" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="680" y="313" />
     <location key="FileChooserDialogImpl.1920.-338.1080.1920" x="2041" y="-315" />
-    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="462" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="461" />
     <location key="replaceTextDialog.1920.-338.1080.1920" x="2222" y="312" />
     <location key="SettingsEditor.1920.-338.1080.1920" x="283" y="206" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.1920.-338.1080.1920" x="2155" y="406" />
@@ -28,17 +28,22 @@
     <location key="#xdebugger.XInspectDialog.1920.0.1080.1920" x="1920" y="714" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.1920.0.1080.1920" x="2193" y="744" />
     <location key="#Composer.-1080.-427.1080.1920" x="-725" y="421" />
-    <location key="NewPhpFileDialog.-1080.-427.1080.1920" x="-719" y="445" />
-    <location key="NewPhpClassDialog.-1080.-427.1080.1920" x="-785" y="347" />
-    <location key="#Browse_Repositories.-1080.-427.1080.1920" x="704" y="312" />
-    <location key="SettingsEditor.-1080.-427.1080.1920" x="326" y="137" />
+    <location key="NewPhpFileDialog.-1080.-427.1080.1920" x="-810" y="70" />
+    <location key="NewPhpClassDialog.-1080.-427.1080.1920" x="-1080" y="-404" />
+    <location key="#Browse_Repositories.-1080.-427.1080.1920" x="480" y="287" />
+    <location key="SettingsEditor.-1080.-427.1080.1920" x="610" y="213" />
     <location key="#Plugins.-1080.-427.1080.1920" x="-940" y="159" />
     <location key="StructurePopup.-1080.-427.1080.1920" x="-775" y="283" />
     <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.-1080.-427.1080.1920" x="-774" y="406" />
     <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.-1080.-427.1080.1920" x="-913" y="-405" />
     <location key="SettingsEditor.0.0.3360.2100@192dpi" x="602" y="308" />
-    <location key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#.-1080.-427.1080.1920" x="-688" y="110" />
-    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.-1080.-427.1080.1920" x="-1076" y="172" />
+    <location key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#.-1080.-427.1080.1920" x="-1080" y="-405" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.-1080.-427.1080.1920" x="-1080" y="-405" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.-1080.-427.1080.1920" x="-1090" y="-384" />
+    <location key="RollbackChangesDialog.-1080.-427.1080.1920" x="968" y="42" />
+    <location key="IdeErrosDialog.-1080.-427.1080.1920" x="-1080" y="-405" />
+    <location key="PhpDebugProjectChooserDialog.-1080.-427.1080.1920" x="20" y="42" />
+    <location key="RollbackChangesDialog.0.0.1920.1080" x="20" y="42" />
     <size key="SettingsEditor.1920.-338.1080.1920" width="1506" height="707" />
     <size key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#.1920.-320.1080.1920" width="554" height="557" />
     <size key="GridCell.Tab.0.left.1920.-320.1080.1920" width="1038" height="670" />
@@ -66,13 +71,21 @@
     <size key="GridCell.Tab.0.center.-1080.-427.1080.1920" width="1080" height="566" />
     <size key="GridCell.Tab.0.right.-1080.-427.1080.1920" width="1080" height="566" />
     <size key="GridCell.Tab.0.bottom.-1080.-427.1080.1920" width="1080" height="566" />
-    <size key="GridCell.Tab.1.left.-1080.-427.1080.1920" width="1038" height="669" />
-    <size key="GridCell.Tab.1.center.-1080.-427.1080.1920" width="1038" height="669" />
-    <size key="GridCell.Tab.1.right.-1080.-427.1080.1920" width="1038" height="669" />
-    <size key="GridCell.Tab.1.bottom.-1080.-427.1080.1920" width="1038" height="669" />
+    <size key="GridCell.Tab.1.left.-1080.-427.1080.1920" width="1080" height="566" />
+    <size key="GridCell.Tab.1.center.-1080.-427.1080.1920" width="1080" height="566" />
+    <size key="GridCell.Tab.1.right.-1080.-427.1080.1920" width="1080" height="566" />
+    <size key="GridCell.Tab.1.bottom.-1080.-427.1080.1920" width="1080" height="566" />
     <size key="StructurePopup.-1080.-427.1080.1920" width="469" height="421" />
-    <size key="SettingsEditor.-1080.-427.1080.1920" width="1307" height="786" />
-    <size key="#Browse_Repositories.-1080.-427.1080.1920" width="1112" height="686" />
-    <size key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#.-1080.-427.1080.1920" width="554" height="375" />
+    <size key="SettingsEditor.-1080.-427.1080.1920" width="960" height="529" />
+    <size key="#Browse_Repositories.-1080.-427.1080.1920" width="960" height="529" />
+    <size key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#.-1080.-427.1080.1920" width="1080" height="759" />
+    <size key="#com.intellij.fileTypes.FileTypeChooser.-1080.-427.1080.1920" width="571" height="350" />
+    <size key="RollbackChangesDialog.-1080.-427.1080.1920" width="932" height="978" />
+    <size key="IdeErrosDialog.-1080.-427.1080.1920" width="1080" height="759" />
+    <size key="NewPhpClassDialog.-1080.-427.1080.1920" width="1080" height="474" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.-1080.-427.1080.1920" width="1080" height="759" />
+    <size key="PhpDebugProjectChooserDialog.-1080.-427.1080.1920" width="1309" height="482" />
+    <size key="NewPhpFileDialog.-1080.-427.1080.1920" width="540" height="949" />
+    <size key="RollbackChangesDialog.0.0.1920.1080" width="933" height="978" />
   </component>
 </application>

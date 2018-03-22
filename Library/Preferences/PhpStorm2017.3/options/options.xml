@@ -14,15 +14,15 @@
     <property name="KEYMAP" value="vim&#10;split&#10;refactor&#10;filestr&#10;file" />
     <property name="evlsprt3.173" value="19" />
     <property name="ts.lib.d.ts.version" value="2.6.2" />
-    <property name="file.gist.reindex.count" value="7746" />
-    <property name="PLUGIN_FILTER" value="makefile&#10;vim&#10;vi&#10;git&#10;git line" />
+    <property name="file.gist.reindex.count" value="7916" />
+    <property name="PLUGIN_FILTER" value="relative line number&#10;makefile&#10;vim&#10;vi&#10;git" />
     <property name="settings.code.style.selected.tab.JavaScript" value="Arrangement" />
     <property name="settings.code.style.selected.tab.PHP" value="Arrangement" />
-    <property name="SearchEveryWhereHistory" value="-&#10;$&#10;entr&#10;filetempla&#10;mce" />
-    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="0" />
+    <property name="SearchEveryWhereHistory" value="func&#10;header&#10;lega&#10;footer&#10;ent" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="-1" />
     <property name="Copy.OpenInEditor" value="true" />
-    <property name="selected.color.option.type" value="TEXT" />
-    <property name="ColorChooser.RecentColors" value="173-187-187-255,,,40-44-52-255,,,47-51-61-255,,,224-87-74-255,,,224-101-93-255,,,86-182-194-255,,,167-167-167-255,,,55-55-55-255,,,51-55-57-255,,,204-124-221-255,,,207-98-220-255,,,92-184-88-255,,,106-213-82-255,,,35-35-34-255,,,67-79-94-255" />
+    <property name="selected.color.option.type" value="CARET_ROW_COLOR" />
+    <property name="ColorChooser.RecentColors" value="173-187-187-255,,,40-44-52-255,,,47-51-61-255,,,224-87-74-255,,,224-101-93-255,,,86-182-194-255,,,167-167-167-255,,,55-55-55-255,,,51-55-57-255,,,204-124-221-255,,,207-98-220-255,,,92-184-88-255,,,106-213-82-255,,,35-35-34-255,,,67-79-94-255,,,83-87-90-255,,,48-50-52-255" />
     <property name="emmet.last.wrap.abbreviations" value="span.a-button-content" />
     <property name="emmet.recent.wrap.abbreviations" value="span.a-button-content" />
     <property name="plugins.preselection.path" value="$USER_HOME$/Downloads" />
@@ -31,8 +31,10 @@
     <property name="erlang.last.update.timestamp" value="1520848243480" />
     <property name="FileTemplates.CurrentTab" value="Includes" />
     <property name="vcs.log.changes.splitter.proportion" value="0.70648146" />
-    <property name="ideavim.statistics.timestamp" value="1520613395569" />
+    <property name="ideavim.statistics.timestamp" value="1521712760844" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="SplitFileEditor.Proportion" value="0.54814816" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.5552239" />
   </component>
 </application>

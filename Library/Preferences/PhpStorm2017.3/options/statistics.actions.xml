@@ -1,143 +1,156 @@
 <application>
   <component name="ActionsCollector">
     <counts>
-      <entry action="$Copy" count="45" />
+      <entry action="$Copy" count="48" />
       <entry action="$Cut" count="4" />
       <entry action="$Delete" count="9" />
-      <entry action="$Paste" count="160" />
-      <entry action="$Redo" count="82" />
-      <entry action="$SelectAll" count="5" />
-      <entry action="$Undo" count="928" />
+      <entry action="$Paste" count="162" />
+      <entry action="$Redo" count="83" />
+      <entry action="$SelectAll" count="14" />
+      <entry action="$Undo" count="1036" />
       <entry action="ActivateDebugToolWindow" count="2" />
-      <entry action="ActivateFavoritesToolWindow" count="2" />
-      <entry action="ActivateProjectToolWindow" count="81" />
+      <entry action="ActivateFavoritesToolWindow" count="4" />
+      <entry action="ActivateProjectToolWindow" count="142" />
       <entry action="AddToFavoritesPopup" count="1" />
-      <entry action="Back" count="51" />
+      <entry action="Back" count="53" />
       <entry action="Bash.NewBashScript" count="4" />
+      <entry action="ChangesView.Revert" count="3" />
       <entry action="ChooseDebugConfiguration" count="1" />
       <entry action="CodeGlance.toggle" count="1" />
       <entry action="CollapseSelection" count="40" />
       <entry action="CommentByLineComment" count="14" />
       <entry action="CopyPaths" count="3" />
+      <entry action="Create class" count="1" />
+      <entry action="EditCustomVmOptions" count="1" />
       <entry action="EditSource" count="6" />
-      <entry action="EditorBackSpace" count="5959" />
-      <entry action="EditorChooseLookupItem" count="356" />
-      <entry action="EditorChooseLookupItemReplace" count="12" />
+      <entry action="EditorBackSpace" count="6668" />
+      <entry action="EditorChooseLookupItem" count="519" />
+      <entry action="EditorChooseLookupItemReplace" count="28" />
       <entry action="EditorCloneCaretAbove" count="4" />
       <entry action="EditorCloneCaretBelow" count="1" />
-      <entry action="EditorCopy" count="359" />
-      <entry action="EditorCut" count="66" />
-      <entry action="EditorDelete" count="75" />
-      <entry action="EditorDeleteLine" count="231" />
-      <entry action="EditorDeleteToWordStart" count="90" />
-      <entry action="EditorDown" count="2529" />
-      <entry action="EditorDownWithSelection" count="30" />
-      <entry action="EditorDuplicate" count="65" />
-      <entry action="EditorEnter" count="647" />
-      <entry action="EditorEscape" count="66" />
+      <entry action="EditorCopy" count="461" />
+      <entry action="EditorCut" count="89" />
+      <entry action="EditorDelete" count="88" />
+      <entry action="EditorDeleteLine" count="279" />
+      <entry action="EditorDeleteToWordStart" count="99" />
+      <entry action="EditorDown" count="2940" />
+      <entry action="EditorDownWithSelection" count="34" />
+      <entry action="EditorDuplicate" count="110" />
+      <entry action="EditorEnter" count="779" />
+      <entry action="EditorEscape" count="74" />
       <entry action="EditorIndentSelection" count="7" />
-      <entry action="EditorLeft" count="2540" />
-      <entry action="EditorLeftWithSelection" count="34" />
-      <entry action="EditorLineEnd" count="296" />
-      <entry action="EditorLineEndWithSelection" count="11" />
-      <entry action="EditorLineStart" count="187" />
-      <entry action="EditorLineStartWithSelection" count="4" />
-      <entry action="EditorNextWord" count="611" />
-      <entry action="EditorNextWordWithSelection" count="107" />
-      <entry action="EditorPaste" count="491" />
-      <entry action="EditorPreviousWord" count="460" />
-      <entry action="EditorPreviousWordWithSelection" count="40" />
-      <entry action="EditorRight" count="3134" />
-      <entry action="EditorRightWithSelection" count="68" />
-      <entry action="EditorSelectWord" count="310" />
+      <entry action="EditorLeft" count="2760" />
+      <entry action="EditorLeftWithSelection" count="136" />
+      <entry action="EditorLineEnd" count="345" />
+      <entry action="EditorLineEndWithSelection" count="16" />
+      <entry action="EditorLineStart" count="222" />
+      <entry action="EditorLineStartWithSelection" count="5" />
+      <entry action="EditorMoveToPageBottom" count="1" />
+      <entry action="EditorNextWord" count="740" />
+      <entry action="EditorNextWordWithSelection" count="126" />
+      <entry action="EditorPageDown" count="16" />
+      <entry action="EditorPageUp" count="16" />
+      <entry action="EditorPaste" count="686" />
+      <entry action="EditorPreviousWord" count="632" />
+      <entry action="EditorPreviousWordWithSelection" count="46" />
+      <entry action="EditorRight" count="3450" />
+      <entry action="EditorRightWithSelection" count="145" />
+      <entry action="EditorSelectWord" count="412" />
       <entry action="EditorSplitLine" count="11" />
+      <entry action="EditorStartNewLine" count="1" />
       <entry action="EditorStartNewLineBefore" count="2" />
-      <entry action="EditorTab" count="121" />
+      <entry action="EditorTab" count="153" />
       <entry action="EditorTextEnd" count="1" />
-      <entry action="EditorUnSelectWord" count="24" />
-      <entry action="EditorUnindentSelection" count="74" />
-      <entry action="EditorUp" count="1610" />
-      <entry action="EditorUpWithSelection" count="20" />
+      <entry action="EditorUnSelectWord" count="27" />
+      <entry action="EditorUnindentSelection" count="75" />
+      <entry action="EditorUp" count="1837" />
+      <entry action="EditorUpWithSelection" count="22" />
       <entry action="EmmetNextEditPoint" count="18" />
       <entry action="EmmetPreviousEditPoint" count="19" />
-      <entry action="ExpandLiveTemplateByTab" count="40" />
-      <entry action="FileStructurePopup" count="2" />
-      <entry action="Find" count="37" />
+      <entry action="ExpandLiveTemplateByTab" count="52" />
+      <entry action="FileStructurePopup" count="4" />
+      <entry action="Find" count="42" />
       <entry action="FindInPath" count="22" />
-      <entry action="Forward" count="21" />
-      <entry action="Generate" count="7" />
+      <entry action="Forward" count="22" />
+      <entry action="Generate" count="9" />
       <entry action="Generate PHPDoc for function" count="1" />
-      <entry action="Git.Add" count="5" />
+      <entry action="Git.Add" count="6" />
       <entry action="GotoAction" count="29" />
       <entry action="GotoClass" count="11" />
       <entry action="GotoCustomRegion" count="1" />
-      <entry action="GotoDeclaration" count="60" />
-      <entry action="GotoFile" count="20" />
-      <entry action="GotoLine" count="4" />
-      <entry action="GotoSymbol" count="2" />
+      <entry action="GotoDeclaration" count="97" />
+      <entry action="GotoFile" count="21" />
+      <entry action="GotoLine" count="6" />
+      <entry action="GotoSymbol" count="4" />
       <entry action="HideActiveWindow" count="1" />
-      <entry action="HideAllWindows" count="81" />
+      <entry action="HideAllWindows" count="85" />
+      <entry action="Import class" count="1" />
       <entry action="InsertLiveTemplate" count="3" />
+      <entry action="IntroduceConstant" count="1" />
       <entry action="IntroduceField" count="3" />
       <entry action="IntroduceVariable" count="4" />
       <entry action="MarkSourceRoot" count="1" />
-      <entry action="MinimizeCurrentWindow" count="2" />
-      <entry action="MoveLineDown" count="43" />
-      <entry action="MoveLineUp" count="57" />
+      <entry action="MinimizeCurrentWindow" count="3" />
+      <entry action="MoveLineDown" count="64" />
+      <entry action="MoveLineUp" count="75" />
       <entry action="NewDir" count="5" />
       <entry action="NewDirectoryProject" count="1" />
-      <entry action="NewElement" count="10" />
-      <entry action="NewFile" count="10" />
+      <entry action="NewElement" count="14" />
+      <entry action="NewFile" count="11" />
       <entry action="NewScratchFile" count="3" />
       <entry action="NextProjectWindow" count="23" />
       <entry action="NextSplitter" count="1" />
-      <entry action="OpenDirectoryProject" count="1" />
+      <entry action="OpenDirectoryProject" count="2" />
       <entry action="OpenFile" count="1" />
       <entry action="ParameterInfo" count="4" />
-      <entry action="PhpListenDebugAction" count="3" />
+      <entry action="PhpDebugBreakAtFirstLine" count="2" />
+      <entry action="PhpListenDebugAction" count="4" />
       <entry action="PhpNewFile" count="6" />
-      <entry action="PhpValidateWebServer" count="7" />
+      <entry action="PhpValidateWebServer" count="13" />
+      <entry action="PipeTableFormatter.Format" count="1" />
       <entry action="QuickImplementations" count="12" />
       <entry action="RecentChangedFiles" count="2" />
       <entry action="RecentFiles" count="3" />
       <entry action="Refactorings.QuickListPopupAction" count="2" />
-      <entry action="ReformatCode" count="135" />
-      <entry action="RenameElement" count="12" />
+      <entry action="ReformatCode" count="138" />
+      <entry action="RenameElement" count="14" />
       <entry action="Replace" count="1" />
-      <entry action="Resume" count="121" />
+      <entry action="Resume" count="130" />
       <entry action="RevealIn" count="2" />
+      <entry action="RunClass" count="1" />
       <entry action="SavaAs" count="2" />
-      <entry action="SaveAll" count="1001" />
-      <entry action="SearchEverywhere" count="47" />
+      <entry action="SaveAll" count="1195" />
+      <entry action="SearchEverywhere" count="54" />
       <entry action="SelectNextOccurrence" count="78" />
       <entry action="Show.Current.Revision" count="1" />
       <entry action="ShowIntentionActions" count="2" />
-      <entry action="ShowNavBar" count="26" />
+      <entry action="ShowNavBar" count="46" />
       <entry action="SplitHorizontally" count="2" />
       <entry action="SplitVertically" count="1" />
-      <entry action="StepInto" count="6" />
-      <entry action="StepOver" count="96" />
+      <entry action="StepInto" count="7" />
+      <entry action="StepOver" count="122" />
       <entry action="SurroundWith" count="11" />
-      <entry action="Switcher" count="36" />
+      <entry action="Switcher" count="39" />
       <entry action="ToggleBreakpointEnabled" count="11" />
       <entry action="ToggleFloatingMode" count="1" />
-      <entry action="ToggleLineBreakpoint" count="84" />
+      <entry action="ToggleLineBreakpoint" count="94" />
       <entry action="ToggleSideMode" count="1" />
       <entry action="ToggleWindowedMode" count="1" />
       <entry action="Update PHPDoc Comment" count="2" />
       <entry action="Vcs.Log.QuickTextFilterSettings" count="2" />
+      <entry action="Vcs.RollbackChangedLines" count="1" />
       <entry action="Vcs.ShowTabbedFileHistory" count="1" />
       <entry action="Vcs.UpdateProject" count="3" />
       <entry action="ViewNavigationBar" count="1" />
       <entry action="ViewStatusBar" count="2" />
-      <entry action="VimPluginToggle" count="5" />
+      <entry action="VimPluginToggle" count="26" />
       <entry action="XDebugger.CompareValueWithClipboard" count="1" />
       <entry action="XDebugger.CopyValue" count="3" />
       <entry action="XDebugger.Inspect" count="1" />
       <entry action="code.align" count="23" />
-      <entry action="editRunConfigurations" count="1" />
-      <entry action="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction" count="2" />
-      <entry action="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorOnlyLayoutChangeAction" count="9" />
+      <entry action="editRunConfigurations" count="2" />
+      <entry action="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorAndPreviewLayoutChangeAction" count="3" />
+      <entry action="org.intellij.plugins.markdown.ui.actions.editorLayout.EditorOnlyLayoutChangeAction" count="12" />
       <entry action="org.intellij.plugins.markdown.ui.actions.editorLayout.PreviewOnlyLayoutChangeAction" count="2" />
     </counts>
   </component>
