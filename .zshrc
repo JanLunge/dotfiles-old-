@@ -5,7 +5,7 @@
 #ZSH_THEME=geometry/geometry
 [[ $TERM = xterm* ]] && TERM='xterm-256color'
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # # export MANPATH="/usr/local/man:$MANPATH"
 #
 #source $HOME/antigen.zsh
@@ -148,7 +148,7 @@ function cdac() {
 	clear
 	slant 'AlwaysCurious'
 }
-alias c='pygmentize -g'
+alias pcat='pygmentize -f terminal256 -O style=native -g'
 alias rechunk='brew services restart chunkwm'
 alias chrome='open -a "Google Chrome"'
 
@@ -158,3 +158,6 @@ function setupconfs(){
 }
 
 slant 'hello Jan'
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

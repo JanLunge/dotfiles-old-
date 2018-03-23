@@ -34,7 +34,7 @@
     <location key="SettingsEditor.-1080.-427.1080.1920" x="610" y="213" />
     <location key="#Plugins.-1080.-427.1080.1920" x="-940" y="159" />
     <location key="StructurePopup.-1080.-427.1080.1920" x="-775" y="283" />
-    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.-1080.-427.1080.1920" x="-774" y="406" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.-1080.-427.1080.1920" x="-1060" y="-385" />
     <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.-1080.-427.1080.1920" x="-913" y="-405" />
     <location key="SettingsEditor.0.0.3360.2100@192dpi" x="602" y="308" />
     <location key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#.-1080.-427.1080.1920" x="-1080" y="-405" />
@@ -87,5 +87,6 @@
     <size key="PhpDebugProjectChooserDialog.-1080.-427.1080.1920" width="1309" height="482" />
     <size key="NewPhpFileDialog.-1080.-427.1080.1920" width="540" height="949" />
     <size key="RollbackChangesDialog.0.0.1920.1080" width="933" height="978" />
+    <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.-1080.-427.1080.1920" width="1040" height="671" />
   </component>
 </application>

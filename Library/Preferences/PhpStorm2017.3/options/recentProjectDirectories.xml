@@ -2,8 +2,9 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="$USER_HOME$/Code/Myvan" />
         <option value="$USER_HOME$/Code/AlwaysCurious" />
+        <option value="$USER_HOME$/Documents/vimwiki" />
+        <option value="$USER_HOME$/Code/Myvan" />
         <option value="$USER_HOME$/Code/craft-boilerplate" />
         <option value="$USER_HOME$/Code/nunjucker" />
         <option value="$USER_HOME$/Google Drive/qmk_firmware-master" />
@@ -12,10 +13,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="$USER_HOME$/Code/Myvan" />
+        <option value="$USER_HOME$/Code/AlwaysCurious" />
       </list>
     </option>
-    <option name="lastPath" value="$USER_HOME$/Code/Myvan" />
+    <option name="lastPath" value="$USER_HOME$/Code/AlwaysCurious" />
     <option name="pid" value="" />
     <option name="additionalInfo">
       <map>
@@ -25,7 +26,7 @@
               <option name="build" value="PS-173.4674.46" />
               <option name="productionCode" value="PS" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1521725296469" />
+              <option name="projectOpenTimestamp" value="1521823372906" />
               <option name="buildTimestamp" value="1521133363422" />
             </RecentProjectMetaInfo>
           </value>
@@ -47,7 +48,7 @@
               <option name="build" value="PS-173.4674.46" />
               <option name="productionCode" value="PS" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1521733604004" />
+              <option name="projectOpenTimestamp" value="1521793313158" />
               <option name="buildTimestamp" value="1521133363422" />
             </RecentProjectMetaInfo>
           </value>
@@ -82,6 +83,17 @@
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="projectOpenTimestamp" value="1520353353829" />
               <option name="buildTimestamp" value="1517310436414" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/vimwiki">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-173.4674.46" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1521799984988" />
+              <option name="buildTimestamp" value="1521133363422" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

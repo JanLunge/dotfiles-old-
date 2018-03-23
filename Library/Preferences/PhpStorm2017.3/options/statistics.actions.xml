@@ -7,7 +7,7 @@
       <entry action="$Paste" count="162" />
       <entry action="$Redo" count="83" />
       <entry action="$SelectAll" count="14" />
-      <entry action="$Undo" count="1036" />
+      <entry action="$Undo" count="1052" />
       <entry action="ActivateDebugToolWindow" count="2" />
       <entry action="ActivateFavoritesToolWindow" count="4" />
       <entry action="ActivateProjectToolWindow" count="142" />
@@ -100,7 +100,7 @@
       <entry action="NewScratchFile" count="3" />
       <entry action="NextProjectWindow" count="23" />
       <entry action="NextSplitter" count="1" />
-      <entry action="OpenDirectoryProject" count="2" />
+      <entry action="OpenDirectoryProject" count="3" />
       <entry action="OpenFile" count="1" />
       <entry action="ParameterInfo" count="4" />
       <entry action="PhpDebugBreakAtFirstLine" count="2" />
@@ -119,12 +119,12 @@
       <entry action="RevealIn" count="2" />
       <entry action="RunClass" count="1" />
       <entry action="SavaAs" count="2" />
-      <entry action="SaveAll" count="1195" />
+      <entry action="SaveAll" count="1196" />
       <entry action="SearchEverywhere" count="54" />
       <entry action="SelectNextOccurrence" count="78" />
       <entry action="Show.Current.Revision" count="1" />
       <entry action="ShowIntentionActions" count="2" />
-      <entry action="ShowNavBar" count="46" />
+      <entry action="ShowNavBar" count="49" />
       <entry action="SplitHorizontally" count="2" />
       <entry action="SplitVertically" count="1" />
       <entry action="StepInto" count="7" />
@@ -140,7 +140,7 @@
       <entry action="Vcs.Log.QuickTextFilterSettings" count="2" />
       <entry action="Vcs.RollbackChangedLines" count="1" />
       <entry action="Vcs.ShowTabbedFileHistory" count="1" />
-      <entry action="Vcs.UpdateProject" count="3" />
+      <entry action="Vcs.UpdateProject" count="4" />
       <entry action="ViewNavigationBar" count="1" />
       <entry action="ViewStatusBar" count="2" />
       <entry action="VimPluginToggle" count="26" />

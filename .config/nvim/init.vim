@@ -1,6 +1,7 @@
 " Plug 'terryma/vim-multiple-cursors'
 call plug#begin('~/.config/nvim/plugged')
 Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+Plug 'vim-scripts/Command-T'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
